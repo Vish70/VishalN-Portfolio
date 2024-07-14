@@ -51,7 +51,7 @@ body {
 }
 .navbar-list{
   display: flex;
-  min-width: 350px;
+  min-width: 310px;
   border-top-left-radius:30px;
   border-bottom-left-radius:30px;
   height: 100vh;
@@ -104,6 +104,10 @@ font-size:1rem;
 
 .nav_child h4{
   line-height:5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: .2rem;
 }
 
 .social_child h4 a{
