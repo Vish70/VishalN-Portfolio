@@ -104,10 +104,18 @@ font-size:1rem;
 
 .nav_child h4{
   line-height:5;
+  line-height: 5;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: baseline;
   grid-gap: .2rem;
+  position: relative;
+}
+
+.nav_child h4 img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .social_child h4 a{
