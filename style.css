@@ -785,17 +785,17 @@ opacity:0;
    flex-direction: column;
     padding:10px;
     justify-content:center;
-    height:655px;
+    height:900px;
   }
   .work-div-txt {
    width:100%;
-   grid-gap:4rem;
-   margin:1rem;
+   /* grid-gap:4rem; */
+   /* margin:1rem; */
    display: flex;
   }
   .work-div-images{
     width:100%;
-    margin-top:2rem;
+    /* margin-top:2rem; */
     margin-left: 0;
   }
 
