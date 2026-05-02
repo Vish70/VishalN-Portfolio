@@ -307,6 +307,7 @@ overflow: hidden;
   position: absolute;
   top: 80px;
   font-size: 18px;
+  font-weight: bold;
 }
 
 nav{
@@ -330,6 +331,7 @@ nav{
 .herosec1 span {
   color: #ff9a30;
   padding-right: 3px;
+  font-weight: bold;
 }
 
 .hero-section {
@@ -359,6 +361,7 @@ nav{
   padding: 15px 0;
   font-family: "b_semibold";
   font-weight: 350;
+  color: #ff9a30;
 }
 
 .hero-section h1 {
@@ -613,7 +616,7 @@ nav{
 
 .work-project-sec a.active {
   border-left: 6px solid #ff9a30;
-  color: white;
+  color: #ff9a30;
 }
 
 .work-project-sec h4 {
