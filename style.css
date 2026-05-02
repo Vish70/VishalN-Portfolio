@@ -71,6 +71,8 @@ body {
   -o-transition: all .5s ease-in-out;
 top:0;
 overflow: hidden;
+  -webkit-overflow-scrolling:none !important;
+
 }
 
 .navbar {
@@ -100,6 +102,7 @@ overflow: hidden;
   overscroll-behavior: none;
   scroll-behavior:none !important;
   overflow: hidden;
+  -webkit-overflow-scrolling:none !important;
 
 }
 
