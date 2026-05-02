@@ -312,6 +312,7 @@ overflow: hidden;
 nav{
       background-color: #ffffff27;
       backdrop-filter: blur(6px);
+    
       width:100%;
       position: fixed;
       top:0;
