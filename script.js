@@ -350,7 +350,7 @@ setTimeout(() => {
   setTimeout(() => {
     flashScreenWord.className =
       "flash-screen-fade";
-  }, 600);
+  }, 650);
 
   /* UI/UX */
 
@@ -364,9 +364,9 @@ setTimeout(() => {
     setTimeout(() => {
       flashScreenWord.className =
         "flash-screen-fade";
-    }, 600);
+    }, 650);
 
-  }, 800);
+  }, 820);
 
   /* FRONTEND */
 
@@ -391,7 +391,7 @@ setTimeout(() => {
         "flash-screen-zoom"
       );
 
-    }, 950);
+    }, 850);
 
   }, 1500);
 
@@ -420,7 +420,7 @@ window.addEventListener("load", () => {
 
     document.getElementById("sceen_visible1").classList.add("sceen_visible");
 
-  }, 3105);
+  }, 3050);
 
 });
 
@@ -431,7 +431,7 @@ window.addEventListener("load", () => {
 
     document.getElementById("resumebutton").classList.add("resumebutton_visible");
 
-  }, 4107);
+  }, 4108);
 
 });
 

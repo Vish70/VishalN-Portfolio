@@ -26,12 +26,11 @@
 
 
 .protfolio_content {
-  user-select: none;
   visibility: hidden;
 }
 
 .protfolio_content.sceen_visible {
-  animation: sceen_visible00 1000ms ease-in-out forwards;
+  animation: sceen_visible00 500ms ease-in-out forwards;
 }
 
 @keyframes sceen_visible00 {
@@ -140,7 +139,7 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); */
 
 #flash-screen-animation {
   position: fixed;
@@ -160,13 +159,13 @@
   align-items: center;
   justify-content: center;
   gap: .15em;
-
+  font-family: "b_regular";
+  font-weight:700;
   color: #FF9A30;
   font-weight: 700;
   font-size: clamp(2.2rem, 7vw, 5rem);
   line-height: 1;
   white-space: nowrap;
-
   opacity: 0;
   transform: scale(.75);
   transform-origin: center center;
@@ -302,6 +301,7 @@
   /* border: 1px solid #3333339f; */
   border: 1px solid #ed902d;
 
+
 }
 
 
@@ -388,6 +388,7 @@
   letter-spacing: 5px;
   transform: scaleX(1.02);
   border: 1px solid #ff9a30;
+    transform: translateY(-7px);
 }
 
 
@@ -731,7 +732,8 @@ body {
 
 .namep .name-text {
   height: 80px;
-  width: 235px;
+  /* width: 235px; */
+  width: 236px;
   overflow: hidden;
   position: relative;
   top: 33px;
@@ -1457,11 +1459,18 @@ nav {
         right: 5.5rem;
     } */
 
-  .namep {
+  /* .namep {
     width: 245px;
     margin: 0 .8rem;
     margin-top: -.3rem;
-  }
+  } */
+
+    .namep {
+        width: 250px;
+        margin: 0 .8rem;
+        margin-top: -.3rem;
+    }
+
 
   .navpart-1 .logo img {
     width: 50px;
