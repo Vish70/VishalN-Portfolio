@@ -386,9 +386,8 @@
   font-family: "b_semibold";
   font-weight: bolder;
   letter-spacing: 5px;
-  transform: scaleX(1.02);
   border: 1px solid #ff9a30;
-    transform: translateY(-7px);
+  transform: translateY(-7px);
 }
 
 
