@@ -18,7 +18,6 @@
   font-weight: 347;
   letter-spacing: 0.9px;
   scroll-behavior: smooth;
-  transition: all 31ms ease-in;
 }
 
 .work-sec2 {
@@ -29,7 +28,6 @@
 body.scroll_hide::-webkit-scrollbar {
   visibility: hidden;
   scroll-behavior: smooth;
-  transition: all 300ms ease-in-out;
 }
 
 
@@ -1533,9 +1531,9 @@ nav {
     font-size: 15px;
   }
 
-  .namep .name-text h4 {
+  /* .namep .name-text h4 {
     font-weight: 600;
-  }
+  } */
 
   /*  */
 
