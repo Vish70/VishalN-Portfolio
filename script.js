@@ -333,6 +333,8 @@ const flashScreenWord =
 function setFlashScreenWord(text) {
   flashScreenWord.innerHTML =
     `${text}<span class="flash-screen-dot"></span>`;
+  document.getElementById("body").classList.add("scroll_hide");
+
 }
 
 /* ==========================================
@@ -340,12 +342,17 @@ function setFlashScreenWord(text) {
    ========================================== */
 
 setTimeout(() => {
+  document.getElementById("body").classList.add("scroll_hide");
+
 
   /* WEBSITE */
 
   setFlashScreenWord("WEBSITE");
   flashScreenWord.className =
     "flash-screen-popup";
+
+
+  document.getElementById("body").classList.add("scroll_hide");
 
   setTimeout(() => {
     flashScreenWord.className =
@@ -365,6 +372,8 @@ setTimeout(() => {
       flashScreenWord.className =
         "flash-screen-fade";
     }, 650);
+
+    document.getElementById("body").classList.add("scroll_hide");
 
   }, 820);
 
@@ -391,9 +400,21 @@ setTimeout(() => {
         "flash-screen-zoom"
       );
 
+
+      document.getElementById("body").classList.add("scroll_hide");
+
+
     }, 850);
 
+
+    document.getElementById("body").classList.add("scroll_hide");
+
+
   }, 1500);
+
+
+  document.getElementById("body").classList.add("scroll_hide");
+
 
 }, 300);
 
@@ -409,6 +430,8 @@ setTimeout(() => {
   if (splash) {
     splash.remove();
   }
+
+
 
 }, 3011);
 
@@ -426,6 +449,13 @@ setTimeout(() => {
 
 
 
+
+
+
+
+
+
+
 window.addEventListener("load", () => {
 
   var targetDiv = document.getElementById("sceen_visible1");
@@ -438,6 +468,8 @@ window.addEventListener("load", () => {
   setTimeout(() => {
 
     document.getElementById("sceen_visible1").classList.add("sceen_visible");
+
+    document.getElementById("body").classList.remove("scroll_hide");
 
   }, 3050);
 
