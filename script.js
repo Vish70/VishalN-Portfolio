@@ -414,13 +414,35 @@ setTimeout(() => {
 
 
 
+// window.onload = function () {
+//   var targetDiv = document.getElementById("top-div");
+
+//   // Div par smoothly scroll karega
+//   targetDiv.scrollIntoView({
+//     behavior: 'smooth',
+//     block: 'start'
+//   });
+// };
+
+
+
 window.addEventListener("load", () => {
+
+  var targetDiv = document.getElementById("sceen_visible1");
+
+  targetDiv.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
 
   setTimeout(() => {
 
     document.getElementById("sceen_visible1").classList.add("sceen_visible");
 
   }, 3050);
+
+
+
 
 });
 
