@@ -44,7 +44,7 @@ body.scroll_hide::-webkit-scrollbar {
 @keyframes sceen_visible00 {
   from {
     display: unset;
-  visibility:hidden;
+    visibility:hidden;
 
   }
 
@@ -155,7 +155,7 @@ body.scroll_hide::-webkit-scrollbar {
   position: fixed;
   inset: 0;
   width: 100%;
-  height: 100vh;
+  height: 100vh !important;
   background: #ffffff;
   display: flex;
   justify-content: center;
