@@ -1,7 +1,7 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('.section-container'),
-    smooth: true
-});
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('.section-container'),
+//     smooth: true
+// });
 
 
 
@@ -504,14 +504,14 @@ window.addEventListener("load", () => {
 
 //////   Flash Screen   ///////
 
-
+document.querySelectorAll('video').forEach(v => {
+    console.log(v.readyState);
+});
 
 
 const videos = document.querySelectorAll(
     '.video_play1, .video_play2, .video_play3, .video_play4'
 );
-
-
 
 const isTouchDevice =
     ('ontouchstart' in window) ||
@@ -539,7 +539,6 @@ videos.forEach(video => {
         });
 
     }
-
 
 }); 
 
