@@ -32,7 +32,8 @@ body.scroll_hide::-webkit-scrollbar {
 
 
 .protfolio_content {
-  display: unset;
+  display:unset;
+  visibility:hidden;
   scrollbar-width: unset !important;
 }
 
@@ -43,11 +44,13 @@ body.scroll_hide::-webkit-scrollbar {
 @keyframes sceen_visible00 {
   from {
     display: unset;
+  visibility:hidden;
 
   }
 
   to {
     display: block;
+  visibility:visible;
 
   }
 }
