@@ -4,25 +4,6 @@ const scroll = new LocomotiveScroll({
 });
 
 
-const videos = document.querySelectorAll(
-    '.video_play1, .video_play2, .video_play3, .video_play4'
-);
-
-videos.forEach(video => {
-
-    video.addEventListener('mouseenter', () => {
-        video.play();
-    });
-
-    video.addEventListener('mouseleave', () => {
-        video.pause();
-        video.currentTime = 0;
-    });
-
-}); 
-
-
-
 
 var div_1 = $(".work-div-img-content:nth-child(1)").height();
 var div_2 = $(".work-img-content").height();
@@ -523,6 +504,44 @@ window.addEventListener("load", () => {
 
 //////   Flash Screen   ///////
 
+
+
+
+const videos = document.querySelectorAll(
+    '.video_play1, .video_play2, .video_play3, .video_play4'
+);
+
+
+
+const isTouchDevice =
+    ('ontouchstart' in window) ||
+    (navigator.maxTouchPoints > 0);
+
+videos.forEach(video => {
+
+    if(isTouchDevice){
+
+        video.muted = true;
+        video.autoplay = true;
+        video.playsInline = true;
+
+        video.play().catch(() => {});
+
+    }else{
+
+        video.addEventListener('mouseenter', () => {
+            video.play();
+        });
+
+        video.addEventListener('mouseleave', () => {
+            video.pause();
+            video.currentTime = 0;
+        });
+
+    }
+
+
+}); 
 
 
 
