@@ -1,7 +1,26 @@
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('.section-container'),
-//     smooth: true
-// });
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('.section-container'),
+    smooth: true
+});
+
+
+const videos = document.querySelectorAll(
+    '.video_play1, .video_play2, .video_play3, .video_play4'
+);
+
+videos.forEach(video => {
+
+    video.addEventListener('mouseenter', () => {
+        video.play();
+    });
+
+    video.addEventListener('mouseleave', () => {
+        video.pause();
+        video.currentTime = 0;
+    });
+
+}); 
+
 
 
 
@@ -137,52 +156,63 @@ $(".graphic").click(function () {
 
 
 
-var video = document.querySelector('.video_play1');
+// var video = document.querySelector('.video_play1');
 
-video.addEventListener('mouseover', () => {
-  video.play();
-});
-
-video.addEventListener('mouseout', () => {
-  video.pause();
-  video.currentTime = 0;
-});
+// video.addEventListener('mouseover', () => {
+//   video.play();
+// });
 
 
-var video2 = document.querySelector('.video_play2');
-
-video2.addEventListener('mouseover', () => {
-  video2.play();
-});
-
-video2.addEventListener('mouseout', () => {
-  video2.pause();
-  video2.currentTime = 0;
-});
+// video.addEventListener('mouseout', () => {
+//   video.pause();
+//   video.currentTime = 0;
+// });
 
 
-var video3 = document.querySelector('.video_play3');
-
-video3.addEventListener('mouseover', () => {
-  video3.play();
-});
-
-video3.addEventListener('mouseout', () => {
-  video3.pause();
-  video3.currentTime = 0;
-});
 
 
-var video4 = document.querySelector('.video_play4');
+// var video2 = document.querySelector('.video_play2');
 
-video4.addEventListener('mouseover', () => {
-  video4.play();
-});
+// video2.addEventListener('mouseover', () => {
+//   video2.play();
+// });
 
-video4.addEventListener('mouseout', () => {
-  video4.pause();
-  video4.currentTime = 0;
-});
+// video2.addEventListener('mouseout', () => {
+//   video2.pause();
+//   video2.currentTime = 0;
+// });
+
+
+
+
+
+// var video3 = document.querySelector('.video_play3');
+
+// video3.addEventListener('mouseover', () => {
+//   video3.play();
+// });
+
+// video3.addEventListener('mouseout', () => {
+//   video3.pause();
+//   video3.currentTime = 0;
+// });
+
+
+
+
+// var video4 = document.querySelector('.video_play4');
+
+// video4.addEventListener('mouseover', () => {
+//   video4.play();
+// });
+
+// video4.addEventListener('mouseout', () => {
+//   video4.pause();
+//   video4.currentTime = 0;
+// });
+
+
+
 
 
 
