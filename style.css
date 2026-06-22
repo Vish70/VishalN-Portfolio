@@ -32,6 +32,7 @@ body.scroll_hide::-webkit-scrollbar {
 
 
 .protfolio_content {
+  overflow: hidden;
   display:unset;
   visibility:hidden;
   scrollbar-width: unset !important;
@@ -169,10 +170,9 @@ body.scroll_hide::-webkit-scrollbar {
   align-items: center;
   justify-content: center;
   gap: .15em;
-  font-family: "b_regular";
-  font-weight: 700;
+ font-family: b_semibold;
   color: #FF9A30;
-  font-weight: 700;
+  font-weight:bold;
   font-size: clamp(2.2rem, 7vw, 5rem);
   line-height: 1;
   white-space: nowrap;
@@ -330,7 +330,6 @@ body.scroll_hide::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 1rem;
 }
 
 .download_resume2:hover {
