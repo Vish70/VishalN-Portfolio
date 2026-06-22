@@ -505,42 +505,33 @@ window.addEventListener("load", () => {
 //////   Flash Screen   ///////
 
 document.querySelectorAll('video').forEach(v => {
-    console.log(v.readyState);
+  console.log(v.readyState);
 });
 
-
 const videos = document.querySelectorAll(
-    '.video_play1, .video_play2, .video_play3, .video_play4'
+  '.video_play1, .video_play2, .video_play3, .video_play4'
 );
 
 const isTouchDevice =
-    ('ontouchstart' in window) ||
-    (navigator.maxTouchPoints > 0);
+  ('ontouchstart' in window) ||
+  (navigator.maxTouchPoints > 0);
 
-videos.forEach(video => {
+if (!isTouchDevice) {
 
-    if(isTouchDevice){
+  videos.forEach(video => {
 
-        video.muted = true;
-        video.autoplay = true;
-        video.playsInline = true;
+    video.addEventListener('mouseenter', () => {
+      video.play();
+    });
 
-        video.play().catch(() => {});
+    video.addEventListener('mouseleave', () => {
+      video.pause();
+      video.currentTime = 0;
+    });
 
-    }else{
+  });
 
-        video.addEventListener('mouseenter', () => {
-            video.play();
-        });
-
-        video.addEventListener('mouseleave', () => {
-            video.pause();
-            video.currentTime = 0;
-        });
-
-    }
-
-}); 
+}
 
 
 
