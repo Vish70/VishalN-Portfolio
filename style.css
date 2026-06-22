@@ -389,7 +389,7 @@ body.scroll_hide::-webkit-scrollbar {
   padding: 10px 10px 8px 10px;
   position: fixed;
   z-index: 99999;
-  bottom: 0;
+  bottom: 0 !important;
   /* top:50%; */
   background-color: #ffffff2b !important;
   -webkit-backdrop-filter: blur(5px) !important;
@@ -536,7 +536,7 @@ body {
   min-width: 310px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  height: 100vh;
+  height: 100vh !important;
   justify-content: end;
   /*grid-gap:3rem;
   */
