@@ -31,15 +31,15 @@ body.scroll_hide::-webkit-scrollbar {
   scroll-behavior: smooth;
 }
 
-body{
-  height:fit-content !important;
+body {
+  height: fit-content !important;
   /* overflow: hidden !important; */
 }
 
 .protfolio_content {
   overflow: hidden !important;
-  height:fit-content !important;
-  display: unset;
+  height: 100vh;
+  /* display: unset; */
   visibility: hidden;
   scrollbar-width: unset !important;
 }
@@ -50,16 +50,17 @@ body{
 
 @keyframes sceen_visible00 {
   from {
-    display: unset;
+    /* display: unset; */
     visibility: hidden;
+    height: 100vh;
 
   }
 
   to {
-    display: block;
+    /* display: block; */
     visibility: visible;
     overflow: hidden !important;
-    height: fit-content !important;
+    height: fit-content;
 
   }
 }
