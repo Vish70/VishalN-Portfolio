@@ -333,13 +333,13 @@ const flashScreenWord =
 
 /* Bahnschrift → Poppins Fallback */
 
-// if (document.fonts.check('700 20px Bahnschrift')) {
-//   flashScreenWord.style.fontFamily =
-//     'Bahnschrift, sans-serif';
-// } else {
-//   flashScreenWord.style.fontFamily =
-//     'Poppins, sans-serif';
-// }
+if (document.fonts.check('800 20px Bahnschrift')) {
+  flashScreenWord.style.fontFamily =
+    'Bahnschrift, sans-serif';
+} else {
+  flashScreenWord.style.fontFamily =
+    'Poppins, sans-serif';
+}
 
 function setFlashScreenWord(text) {
   flashScreenWord.innerHTML =
