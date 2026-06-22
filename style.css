@@ -32,9 +32,10 @@ body.scroll_hide::-webkit-scrollbar {
 
 
 .protfolio_content {
-  overflow: hidden;
-  display:unset;
-  visibility:hidden;
+  overflow: hidden !important;
+  height: fit-content !important;
+  display: unset;
+  visibility: hidden;
   scrollbar-width: unset !important;
 }
 
@@ -45,13 +46,15 @@ body.scroll_hide::-webkit-scrollbar {
 @keyframes sceen_visible00 {
   from {
     display: unset;
-    visibility:hidden;
+    visibility: hidden;
 
   }
 
   to {
     display: block;
-  visibility:visible;
+    visibility: visible;
+    overflow: hidden !important;
+    height: fit-content !important;
 
   }
 }
@@ -170,9 +173,9 @@ body.scroll_hide::-webkit-scrollbar {
   align-items: center;
   justify-content: center;
   gap: .15em;
- font-family: b_semibold;
+  font-family: b_semibold;
   color: #FF9A30;
-  font-weight:bold;
+  font-weight: bold;
   font-size: clamp(2.2rem, 7vw, 5rem);
   line-height: 1;
   white-space: nowrap;
@@ -322,7 +325,7 @@ body.scroll_hide::-webkit-scrollbar {
   bottom: .4rem;
   right: 0;
   position: absolute;
-  margin:auto auto 1.5rem auto;
+  margin: auto auto 1.5rem auto;
   width: 100%;
   height: max-content;
   padding: 5px;
