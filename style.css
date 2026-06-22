@@ -36,6 +36,10 @@ body {
   /* overflow: hidden !important; */
 }
 
+.protfolio_content::-webkit-scrollbar{
+  display: none !important;
+}
+
 .protfolio_content {
   overflow: hidden !important;
   height: 100vh;
