@@ -333,7 +333,7 @@ const flashScreenWord =
 
 /* Bahnschrift → Poppins Fallback */
 
-if (document.fonts.check('800 20px Bahnschrift')) {
+if (document.fonts.check('700 20px Bahnschrift')) {
   flashScreenWord.style.fontFamily =
     'Bahnschrift, sans-serif';
 } else {

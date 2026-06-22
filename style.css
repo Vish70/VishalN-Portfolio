@@ -31,10 +31,14 @@ body.scroll_hide::-webkit-scrollbar {
   scroll-behavior: smooth;
 }
 
+body{
+  height:fit-content !important;
+  /* overflow: hidden !important; */
+}
 
 .protfolio_content {
   overflow: hidden !important;
-  height: fit-content !important;
+  height:fit-content !important;
   display: unset;
   visibility: hidden;
   scrollbar-width: unset !important;
