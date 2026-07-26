@@ -1,0 +1,1830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ========================================================= -->
+    <!-- Basic Meta -->
+    <!-- ========================================================= -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Vishal Nalawade | UI/UX Designer & Website Designer
+    </title>
+
+    <meta name="description"
+        content="Portfolio of Vishal Nalawade, a UI/UX Designer specializing in modern websites, mobile app interfaces, interactive prototypes and digital experiences.">
+
+    <meta name="keywords"
+        content="UI UX Designer, Website Designer, Figma, Portfolio, Mobile App Design, Responsive Website">
+
+    <meta name="author" content="Vishal Nalawade">
+
+    <meta name="theme-color" content="#FF9A30">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- ========================================================= -->
+    <!-- Open Graph -->
+    <!-- ========================================================= -->
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="Vishal Nalawade | UI/UX Designer">
+
+    <meta property="og:description" content="Modern UI/UX Designer Portfolio">
+
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <meta property="og:url" content="https://vish70.github.io/VishalN-Portfolio/">
+
+    <!-- ========================================================= -->
+    <!-- Favicon -->
+    <!-- ========================================================= -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <link rel="icon" href="favicon.ico?v=3" type="image/x-icon">
+
+
+    <!-- ========================================================= -->
+    <!-- Fonts -->
+    <!-- ========================================================= -->
+
+    <!-- Local General Sans -->
+
+    <link rel="preload" href="assets/fonts/GeneralSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- ========================================================= -->
+    <!-- Remix Icons -->
+    <!-- ========================================================= -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Case Study CSS -->
+    <link rel="stylesheet" href="css/case-study.css">
+
+</head>
+
+<body>
+
+    <!-- Preloader (Same as Homepage) -->
+
+
+    <!-- Cursor (Same as Homepage) -->
+
+
+    <!-- Scroll Progress (Same as Homepage) -->
+
+
+    <!-- Header (Same as Homepage) -->
+
+
+    <!-- ==========================================================
+        Custom Cursor
+    =========================================================== -->
+    <div class="cursor">
+        <div class="cursor__dot"></div>
+        <div class="cursor__outline"></div>
+    </div>
+
+    <!-- ==========================================================
+        Scroll Progress
+    =========================================================== -->
+    <div class="scroll-progress">
+        <span class="scroll-progress__bar"></span>
+    </div>
+
+    <!-- ==========================================================
+        Page Preloader
+    =========================================================== -->
+    <div class="preloader" id="preloader">
+
+        <div class="preloader__inner">
+
+            <div class="preloader__logo">
+                <span><img src="favicon.ico" alt="logo_"></span>
+            </div>
+
+            <div class="preloader__loading">
+                <span class="preloader__line"></span>
+            </div>
+
+            <p class="preloader__text">
+                Loading Portfolio...
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================================================
+        Site Wrapper
+    =========================================================== -->
+    <div class="site-wrapper">
+
+        <!-- Header Starts Here (Part 3) -->
+
+        <!-- ==========================================================
+            Header
+        =========================================================== -->
+        <header class="header" id="header">
+
+            <div class="container">
+
+                <div class="header__wrapper">
+
+                    <!-- Logo -->
+                    <a href="#project_hero" class="logo" aria-label="Vishal Nalawade Portfolio">
+                        <!-- <span class="logo__text">VN.</span> -->
+                        <span><img src="favicon.ico" alt="logo_"></span>
+
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <nav class="nav" aria-label="Primary Navigation">
+
+                        <ul class="nav__list">
+
+                            <li class="nav__item">
+                                <a href="index.html#hero" class="nav__link">
+                                    Home
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#projects" class="nav__link">
+                                    Projects
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#about" class="nav__link">
+                                    About
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#services" class="nav__link">
+                                    Services
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#skills" class="nav__link">
+                                    Skills
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#contact" class="nav__link">
+                                    Contact
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                    <!-- Right Actions -->
+                    <div class="header__actions">
+
+                        <a href="index.html#contact" class="btn btn--primary">
+                            Let's Talk
+                        </a>
+
+                        <button class="menu-toggle" id="menu-toggle" aria-label="Open Menu" aria-expanded="false"
+                            aria-controls="mobile-menu">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- ==========================================================
+            Mobile Navigation
+        =========================================================== -->
+
+        <aside class="mobile-menu" id="mobile-menu" aria-hidden="true">
+
+            <div class="mobile-menu__header">
+
+                <a href="#project_hero" class="logo">
+                    <span class="logo__text">VN.</span>
+                </a>
+
+                <button class="mobile-menu__close" id="menu-close" aria-label="Close Menu">
+
+                    <i class="ri-close-line"></i>
+
+                </button>
+
+            </div>
+
+            <nav class="mobile-nav">
+
+                <ul class="mobile-nav__list">
+
+                    <li>
+                        <a href="index.html#hero">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#projects">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#about">About</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#services">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#skills">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="mobile-menu__footer">
+
+                <a href="index.html#contact" class="btn btn--primary btn--full">
+                    Let's Talk
+                </a>
+
+            </div>
+
+        </aside>
+
+
+
+        <main class="case-study">
+
+            <!-- Breadcrumb -->
+
+
+            <!-- Hero -->
+
+            <!-- =========================
+     Breadcrumb
+========================= -->
+
+            <section class="case-study__breadcrumb" id="project_hero">
+                <div class="container">
+
+                    <nav class="breadcrumb" aria-label="Breadcrumb">
+
+                        <a href="index.html">Home</a>
+
+                        <span>/</span>
+
+                        <a href="index.html#projects">Projects</a>
+
+                        <span>/</span>
+
+                        <span aria-current="page">Food Delivery Mobile App</span>
+
+                    </nav>
+
+                </div>
+            </section>
+
+
+            <!-- =========================
+     Hero
+========================= -->
+
+            <section class="case-study__hero">
+
+                <div class="container">
+
+                    <div class="case-study__hero-content">
+
+                        <span class="case-study__badge">
+                            Food Delivery Mobile App
+
+                        </span>
+
+                        <h1 class="case-study__title">
+                            Modern Food Delivery Mobile App
+                        </h1>
+
+                        <p class="case-study__description">
+
+                            Food Delivery Mobile App
+
+                            A modern food delivery mobile app designed to simplify food ordering through intuitive
+                            restaurant discovery, organized menu browsing, and a seamless checkout experience with a
+                            clean and user-friendly interface.
+                        </p>
+
+                        <div class="case-study__actions">
+
+                            <a href="#overview" class="btn btn--primary">
+
+                                Explore Case Study
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="case-study__hero-image">
+
+                        <img src="assets/images/project-case-study/food-app/hero.webp" alt="Royal Sofa Homepage"
+                            loading="eager">
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- Project Overview -->
+
+            <section id="overview" class="case-study__section case-study__overview">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Overview
+                        </span>
+
+                        <h2 class="section-title">
+                            Project Overview
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__overview-content">
+
+                        <p>
+
+                            This project is a modern food delivery mobile application designed to help users discover
+                            restaurants, explore menus, and order food through a fast and intuitive experience.
+
+                            The primary goal was to simplify the food ordering journey by presenting restaurants,
+                            dishes, and checkout information in a clean and organized interface while reducing
+                            unnecessary steps before placing an order.
+
+                            From browsing nearby restaurants to reviewing the cart and completing payment, every
+                            interaction is designed to feel smooth, efficient, and user-friendly.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Project Information -->
+
+            <!-- =========================
+     Project Information
+========================= -->
+
+<section class="case-study__section case-study__project-info">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                Information
+            </span>
+
+            <h2 class="section-title">
+                Project Information
+            </h2>
+
+        </div>
+
+        <div class="case-study__info-grid">
+
+            <div class="case-study__info-card">
+
+                <i class="ri-user-star-line"></i>
+
+                <span>Project Role</span>
+
+                <h3>UI/UX Design</h3>
+
+            </div>
+
+            <div class="case-study__info-card">
+
+                <i class="ri-layout-grid-line"></i>
+
+                <span>Category</span>
+
+                <h3>Food Delivery Mobile App</h3>
+
+            </div>
+
+            <div class="case-study__info-card">
+
+                <i class="ri-pen-nib-line"></i>
+
+                <span>Tools</span>
+
+                <h3>Figma</h3>
+
+            </div>
+
+            <div class="case-study__info-card">
+
+                <i class="ri-smartphone-line"></i>
+
+                <span>Platform</span>
+
+                <h3>Mobile Application</h3>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+            <!-- Challenge -->
+
+            <!-- =========================
+     Challenge
+========================= -->
+
+            <section class="case-study__section case-study__challenge">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Challenge
+                        </span>
+
+                        <h2 class="section-title">
+                            Design Challenge
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__content">
+
+                        <div class="case-study__text">
+                            <p>
+
+                                <!--  CHALLENGE CONTENT  -->
+
+                                Ordering food online can become frustrating when menus are cluttered, navigation is
+                                confusing, or checkout requires too many steps.
+
+                                The challenge was to design an application that:
+
+                                Makes food discovery simple.
+                                Displays restaurants and dishes clearly.
+                                Helps users browse menus quickly.
+                                Builds confidence before ordering.
+                                Reduces unnecessary navigation.
+                                Creates a fast ordering experience.
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Design Goals -->
+
+            <!-- =========================
+     Design Goals
+========================= -->
+
+<section class="case-study__section case-study__design-goals">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                UX Goals
+            </span>
+
+            <h2 class="section-title">
+                User Experience Design Goals
+            </h2>
+
+        </div>
+
+        <div class="case-study__goals-grid">
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-restaurant-line"></i>
+
+                <h3>
+                    Restaurant Discovery
+                </h3>
+
+                <p>
+                    Discover restaurants effortlessly.
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-restaurant-2-line"></i>
+
+                <h3>
+                    Menu Browsing
+                </h3>
+
+                <p>
+                    Browse menus quickly.
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-file-list-3-line"></i>
+
+                <h3>
+                    Food Details
+                </h3>
+
+                <p>
+                    View complete food details.
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-shield-check-line"></i>
+
+                <h3>
+                    Order with Confidence
+                </h3>
+
+                <p>
+                    Order food with confidence.
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-route-line"></i>
+
+                <h3>
+                    Easy Navigation
+                </h3>
+
+                <p>
+                    Navigate without confusion.
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-shopping-bag-3-line"></i>
+
+                <h3>
+                    Quick Checkout
+                </h3>
+
+                <p>
+                    Complete checkout with minimal effort.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+            <!-- Design Process -->
+
+            <!-- =========================
+     Design Process
+========================= -->
+
+<section class="case-study__section case-study__process">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                Process
+            </span>
+
+            <h2 class="section-title">
+                Design Process
+            </h2>
+
+        </div>
+
+        <div class="case-study__timeline">
+
+            <div class="case-study__timeline-item">
+
+                <div class="case-study__timeline-number">
+                    01
+                </div>
+
+                <div class="case-study__timeline-content">
+
+                    <h3>
+                        Research & Requirement Understanding
+                    </h3>
+
+                    <p>
+                        Identified user expectations, restaurant ordering behavior, and business requirements to create
+                        a fast, convenient, and enjoyable food delivery experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="case-study__timeline-item">
+
+                <div class="case-study__timeline-number">
+                    02
+                </div>
+
+                <div class="case-study__timeline-content">
+
+                    <h3>
+                        Information Architecture
+                    </h3>
+
+                    <p>
+                        Organized restaurants, food categories, menus, search, and navigation to help users discover
+                        meals quickly and order with minimal effort.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="case-study__timeline-item">
+
+                <div class="case-study__timeline-number">
+                    03
+                </div>
+
+                <div class="case-study__timeline-content">
+
+                    <h3>
+                        UI Design
+                    </h3>
+
+                    <p>
+                        Designed a clean and modern interface featuring appetizing food imagery, intuitive layouts, and
+                        clear ordering actions that simplify decision-making.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="case-study__timeline-item">
+
+                <div class="case-study__timeline-number">
+                    04
+                </div>
+
+                <div class="case-study__timeline-content">
+
+                    <h3>
+                        Interactive Prototype
+                    </h3>
+
+                    <p>
+                        Built interactive user flows to validate restaurant browsing, menu exploration, cart
+                        interactions, and the complete food ordering experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="case-study__timeline-item">
+
+                <div class="case-study__timeline-number">
+                    05
+                </div>
+
+                <div class="case-study__timeline-content">
+
+                    <h3>
+                        Food Ordering Experience
+                    </h3>
+
+                    <p>
+                        Refined the end-to-end ordering journey to help users discover restaurants, explore menus, place
+                        orders confidently, and complete checkout through a fast and seamless experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    </div>
+
+    </section>
+
+
+    <!-- Design Approach -->
+
+    <!-- =========================
+     Design Approach 
+========================= -->
+
+<section class="case-study__section case-study__design-approach">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                Design Approach
+            </span>
+
+            <h2 class="section-title">
+                Design Approach
+            </h2>
+
+            <p>
+                The interface follows a clean, modern, and food-focused design language.
+                Each screen is designed to reduce visual clutter while presenting only the most relevant information at
+                every stage of the ordering journey.
+            </p>
+
+        </div>
+
+        <div class="case-study__goals-grid">
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-layout-4-line"></i>
+
+                <h3>Clean Visual Hierarchy</h3>
+
+                <p>
+                    Clean visual hierarchy
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-route-line"></i>
+
+                <h3>Easy Navigation</h3>
+
+                <p>
+                    Easy navigation
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-restaurant-line"></i>
+
+                <h3>Large Food Imagery</h3>
+
+                <p>
+                    Large food imagery
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-layout-grid-line"></i>
+
+                <h3>Comfortable Spacing</h3>
+
+                <p>
+                    Comfortable spacing
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-font-size-2"></i>
+
+                <h3>Clear Typography</h3>
+
+                <p>
+                    Clear typography
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-shopping-bag-3-line"></i>
+
+                <h3>Simple Ordering</h3>
+
+                <p>
+                    Simple ordering interactions
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Color Strategy -->
+
+    <!-- =========================
+     Color Strategy
+========================= -->
+
+<section class="case-study__section case-study__colors">
+
+    <div class="container">
+
+        <div class="case-study__content">
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Color Strategy
+                </span>
+
+                <h2 class="section-title">
+                    Appetite Through Color
+                </h2>
+
+                <p>
+                    The application combines dark backgrounds with vibrant red accents to create a bold and appetizing
+                    visual experience.
+                </p>
+
+                <p>
+                    The dark theme allows food photography to stand out while the red accent color naturally draws
+                    attention to important actions throughout the interface. The color palette represents energy,
+                    appetite, speed, confidence, and modernity.
+                </p>
+
+            </div>
+
+            <div class="case-study__color-palette">
+
+                <div class="case-study__color-card">
+
+                    <div class="case-study__color-preview" style="background:#B81411;">
+                    </div>
+
+                    <h3>Primary Red</h3>
+
+                    <span>#B81411</span>
+
+                </div>
+
+                <div class="case-study__color-card">
+
+                    <div class="case-study__color-preview" style="background:#181818;">
+                    </div>
+
+                    <h3>Dark Background</h3>
+
+                    <span>#181818</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- App Experience -->
+
+    <!-- =========================
+     App Experience
+========================= -->
+
+<section class="case-study__section case-study__challenge">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                App Experience
+            </span>
+
+            <h2 class="section-title">
+                App Experience
+            </h2>
+
+        </div>
+
+        <div class="case-study__content">
+
+            <div class="case-study__text">
+
+                <p>
+
+                    The application is designed to guide users from discovering restaurants to exploring menus and
+                    completing their food order with minimal effort.
+
+                </p>
+
+                <p>
+
+                    Every screen presents only the information users need at each stage, creating a fast, focused, and
+                    enjoyable ordering experience.
+
+                </p>
+
+                <p>
+
+                    By combining intuitive navigation, appetizing food imagery, organized menu layouts, and streamlined
+                    ordering interactions, the experience remains simple, engaging, and efficient from restaurant
+                    discovery to successful checkout.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     Login Experience
+========================= -->
+
+<section class="case-study__section case-study__showcase">
+
+    <div class="container">
+
+        <div class="case-study__content">
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Login
+                </span>
+
+                <h2>
+                    Login Experience
+                </h2>
+
+                <p>
+                    The login screen provides a clean and distraction-free entry into the application.
+                </p>
+
+                <p>
+                    Users can securely log in, enter their account credentials, and recover forgotten passwords through
+                    a simple authentication flow.
+                </p>
+
+                <p>
+                    The streamlined experience allows users to access the application quickly and begin ordering food
+                    without unnecessary complexity.
+                </p>
+
+            </div>
+
+            <div class="case-study__image">
+
+                <img src="assets/images/project-case-study/food-app/login.webp"
+                    alt="Login Experience" loading="lazy">
+
+                <button class="case-study__expand" aria-label="View Full Size">
+                    <i class="ri-fullscreen-line"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     Home Screen
+========================= -->
+
+<section class="case-study__section case-study__showcase">
+
+    <div class="container">
+
+        <div class="case-study__content case-study__content--reverse">
+
+            <div class="case-study__image">
+
+                <img src="assets/images/project-case-study/food-app/home.webp"
+                    alt="Home Screen" loading="lazy">
+
+                <button class="case-study__expand" aria-label="View Full Size">
+                    <i class="ri-fullscreen-line"></i>
+                </button>
+
+            </div>
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Home
+                </span>
+
+                <h2 class="section-title">
+                    Home Screen
+                </h2>
+
+                <p>
+                    The home screen helps users discover restaurants and dishes through an organized and visually
+                    engaging interface.
+                </p>
+
+                <p>
+                    It includes food search, food categories, nearby restaurants, featured dishes, restaurant cards,
+                    cart shortcut, ratings, and location information.
+                </p>
+
+                <p>
+                    Large food images immediately capture attention while important details remain easy to scan.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     Food Details
+========================= -->
+
+<section class="case-study__section case-study__showcase">
+
+    <div class="container">
+
+        <div class="case-study__content">
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Details
+                </span>
+
+                <h2 class="section-title">
+                    Food Details
+                </h2>
+
+                <p>
+                    The food details page provides all the information users need before placing an order.
+                </p>
+
+                <p>
+                    Users can explore large food images, restaurant information, delivery time, ratings, food category,
+                    pricing, quantity selection, and an easy-to-use <strong>Add to Cart</strong> button.
+                </p>
+
+                <p>
+                    Presenting everything on one screen helps users make quick ordering decisions with confidence.
+                </p>
+
+            </div>
+
+            <div class="case-study__image">
+
+                <img src="assets/images/project-case-study/food-app/details.webp"
+                    alt="Food Details" loading="lazy">
+
+                <button class="case-study__expand" aria-label="View Full Size">
+                    <i class="ri-fullscreen-line"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     Checkout Experience
+========================= -->
+
+<section class="case-study__section case-study__showcase">
+
+    <div class="container">
+
+        <div class="case-study__content case-study__content--reverse">
+
+            <div class="case-study__image">
+
+                <img src="assets/images/project-case-study/food-app/cart.webp"
+                    alt="Checkout Experience" loading="lazy">
+
+                <button class="case-study__expand" aria-label="View Full Size">
+                    <i class="ri-fullscreen-line"></i>
+                </button>
+
+            </div>
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Checkout
+                </span>
+
+                <h2 class="section-title">
+                    Checkout Experience
+                </h2>
+
+                <p>
+                    The checkout screen simplifies the final ordering process by presenting all payment-related
+                    information in one place.
+                </p>
+
+                <p>
+                    Users can review selected items, update quantities, view the bill summary, check delivery charges,
+                    apply coupons, confirm the delivery address, choose a payment method, and complete their payment.
+                </p>
+
+                <p>
+                    Keeping the checkout process simple reduces friction and creates a faster, more enjoyable food
+                    ordering experience.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- User Experience Goals
+
+
+          =========================
+     User Experience Goals
+========================= -->
+
+    <!-- <section class="case-study__section case-study__ux-goals">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+
+                            UX Goals
+
+                        </span>
+
+                        <h2 class="section-title">
+
+                            User Experience Goals
+
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__goals-grid">
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-service-line"></i>
+
+                            <h3>Service Discovery</h3>
+
+                            <p>Understand available services quickly.</p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>02</h3>
+
+                            <p>
+                                View consultation pricing before booking.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>03</h3>
+
+                            <p>
+                                Build trust through patient testimonials.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>04</h3>
+
+                            <p>
+                                Find important actions without searching.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>05</h3>
+
+                            <p>
+                                Complete the booking process with minimal effort.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>06</h3>
+
+                            <p>
+                                Receive instant booking confirmation.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>  -->
+
+
+    <!-- Conversion Strategy -->
+
+    <!-- =========================
+     Conversion Strategy
+========================= -->
+
+<section class="case-study__section case-study__challenge">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                Strategy
+            </span>
+
+            <h2 class="section-title">
+                Conversion Strategy
+            </h2>
+
+        </div>
+
+        <div class="case-study__content">
+
+            <div class="case-study__text">
+
+                <p>
+
+                    The application is designed to guide users from discovering restaurants to completing their food
+                    order through a simple and focused journey.
+
+                </p>
+
+                <p>
+
+                    Large food visuals, restaurant ratings, pricing, delivery information, and prominent
+                    <strong>Add to Cart</strong> and <strong>Pay Now</strong> call-to-action buttons are arranged in a
+                    logical sequence, helping users make quick decisions while reducing friction throughout the
+                    ordering process.
+
+                </p>
+
+                <p>
+
+                    This streamlined experience minimizes unnecessary navigation, builds confidence through clear menu
+                    information and transparent pricing, and creates a smooth checkout flow that encourages users to
+                    complete their orders quickly and effortlessly.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Design Highlights -->
+
+    <!-- =========================
+     Design Highlights
+========================= -->
+
+<section class="case-study__section case-study__highlights">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                Highlights
+            </span>
+
+            <h2 class="section-title">
+                Design Highlights
+            </h2>
+
+        </div>
+
+        <div class="case-study__highlights-grid">
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-layout-4-line"></i>
+
+                <h3>
+                    Modern Interface
+                </h3>
+
+                <p>
+                    Modern food delivery interface.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-image-2-line"></i>
+
+                <h3>
+                    Food Showcase
+                </h3>
+
+                <p>
+                    Large food showcase.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-search-line"></i>
+
+                <h3>
+                    Smart Search
+                </h3>
+
+                <p>
+                    Smart search experience.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-store-2-line"></i>
+
+                <h3>
+                    Restaurant Browsing
+                </h3>
+
+                <p>
+                    Browse nearby restaurants.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-restaurant-line"></i>
+
+                <h3>
+                    Food Details
+                </h3>
+
+                <p>
+                    Food detail experience.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-filter-3-line"></i>
+
+                <h3>
+                    Category Filters
+                </h3>
+
+                <p>
+                    Quick category filters.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-add-circle-line"></i>
+
+                <h3>
+                    Quantity Selector
+                </h3>
+
+                <p>
+                    Easy quantity selection.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-shopping-cart-2-line"></i>
+
+                <h3>
+                    Simplified Checkout
+                </h3>
+
+                <p>
+                    Fast checkout experience.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-bank-card-line"></i>
+
+                <h3>
+                    Pay Now CTA
+                </h3>
+
+                <p>
+                    Clear payment action.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-smartphone-line"></i>
+
+                <h3>
+                    Mobile-First Design
+                </h3>
+
+                <p>
+                    Optimized mobile experience.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Final Outcome -->
+
+    <!-- =========================
+     Final Outcome
+========================= -->
+
+<section class="case-study__section case-study__outcome">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                Outcome
+            </span>
+
+            <h2 class="section-title">
+                Final Outcome
+            </h2>
+
+        </div>
+
+        <div class="case-study__content">
+
+            <div class="case-study__text case-study__outcome-card">
+
+                <p>
+
+                    The final design delivers a clean, modern, and user-friendly food ordering experience that helps
+                    users discover restaurants and place orders with confidence.
+
+                </p>
+
+                <p>
+
+                    By combining intuitive navigation, attractive food imagery, organized menu information,
+                    simplified checkout, and clear call-to-action buttons, the interface reduces ordering friction and
+                    creates a seamless journey from food discovery to payment.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Next Project -->
+
+    <!-- =========================
+     Next Project
+========================= -->
+
+
+<section class="case-study__section case-study__next-project">
+
+    <div class="container">
+
+        <div class="case-study__next-card">
+
+            <span class="section-tag">
+                Next Project
+            </span>
+
+            <h2>
+                Dental Clinic Website
+            </h2>
+
+            <p>
+
+                Website Design
+
+                <br>
+
+                Designed a modern healthcare website for a dental clinic focused on patient engagement, appointment
+                booking, and service presentation.
+
+            </p>
+
+            <a href="project-dental.html" class="btn btn--primary">
+
+                View Case Study
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+    </main>
+
+
+    <!-- Footer (Same as Homepage) -->
+
+
+    <!-- =========================
+     Image Lightbox
+========================= -->
+
+    <div class="case-study__lightbox" role="dialog" aria-modal="true" aria-hidden="true" hidden>
+
+        <button class="case-study__lightbox-close" aria-label="Close">
+
+            <i class="ri-close-line"></i>
+
+        </button>
+
+        <button class="case-study__lightbox-prev" aria-label="Previous">
+
+            <i class="ri-arrow-left-s-line"></i>
+
+        </button>
+
+        <div class="case-study__lightbox-content">
+
+            <img src="" alt="" class="case-study__lightbox-image">
+
+            <p class="case-study__lightbox-caption"></p>
+
+            <span class="case-study__lightbox-counter"></span>
+
+        </div>
+
+        <button class="case-study__lightbox-next" aria-label="Next">
+
+            <i class="ri-arrow-right-s-line"></i>
+
+        </button>
+
+    </div>
+
+
+
+
+    <!-- ==========================================================
+    Footer
+========================================================== -->
+
+
+
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer__top">
+
+                <a href="#project_hero" class="footer__logo">
+                    Vishal N<span>.</span>
+                </a>
+
+                <nav class="footer__nav">
+
+                    <a href="index.html#hero">Home</a>
+                    <a href="index.html#projects">Projects</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#services">Services</a>
+                    <a href="index.html#skills">Skills</a>
+                    <a href="index.html#contact">Contact</a>
+
+                </nav>
+
+                <div class="footer__social">
+
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nalawadevishal2001@gmail.com" target="_blank"
+                        rel="noopener noreferrer" aria-label="Email">
+                        <i class="ri-mail-line"></i>
+                    </a>
+
+                    <a href="https://wa.me/917030557456" target="_blank" rel="noopener noreferrer"
+                        aria-label="WhatsApp">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+
+                    <a href="https://github.com/vish70" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="ri-github-line"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer__bottom">
+
+                <a href="#project_hero" class="footer__logo">
+
+                    <img src="favicon.ico" alt="Vishal Nalawade Logo" class="footer__logo">
+                </a>
+
+                <p>
+                    © 2026 Vishal Nalawade. All rights reserved.
+                </p>
+
+                <p>
+                    Designed & Developed by Vishal Nalawade.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <!-- ==========================================================
+    Back To Top
+========================================================== -->
+
+    <button class="scroll-top" id="scroll-top" aria-label="Back to Top">
+
+        <i class="ri-arrow-up-line"></i>
+
+    </button>
+
+
+
+
+
+    <!-- Scroll To Top -->
+
+
+    <!-- GSAP CDN -->
+
+    <!-- ==========================================================
+    JavaScript
+========================================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js">
+    </script>
+
+    <!-- ScrollTrigger CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js">
+    </script>
+
+
+    <!-- Global Script -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Homepage GSAP -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- Case Study Script -->
+    <script src="assets/js/case-study.js"></script>
+
+    <!-- Case Study GSAP -->
+    <script src="assets/js/case-study-gsap.js"></script>
+
+    <!-- Navigation Router -->
+    <script src="js/navigation-router.js"></script>
+
+    <!-- Page Router -->
+    <script src="js/page-router.js"></script>
+
+
+</body>
+
+</html>

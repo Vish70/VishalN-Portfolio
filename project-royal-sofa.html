@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ========================================================= -->
+    <!-- Basic Meta -->
+    <!-- ========================================================= -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Vishal Nalawade | UI/UX Designer & Website Designer
+    </title>
+
+    <meta name="description"
+        content="Portfolio of Vishal Nalawade, a UI/UX Designer specializing in modern websites, mobile app interfaces, interactive prototypes and digital experiences.">
+
+    <meta name="keywords"
+        content="UI UX Designer, Website Designer, Figma, Portfolio, Mobile App Design, Responsive Website">
+
+    <meta name="author" content="Vishal Nalawade">
+
+    <meta name="theme-color" content="#FF9A30">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- ========================================================= -->
+    <!-- Open Graph -->
+    <!-- ========================================================= -->
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="Vishal Nalawade | UI/UX Designer">
+
+    <meta property="og:description" content="Modern UI/UX Designer Portfolio">
+
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <meta property="og:url" content="https://vish70.github.io/VishalN-Portfolio/">
+
+    <!-- ========================================================= -->
+    <!-- Favicon -->
+    <!-- ========================================================= -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <link rel="icon" href="favicon.ico?v=3" type="image/x-icon">
+
+
+    <!-- ========================================================= -->
+    <!-- Fonts -->
+    <!-- ========================================================= -->
+
+    <!-- Local General Sans -->
+
+    <link rel="preload" href="assets/fonts/GeneralSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- ========================================================= -->
+    <!-- Remix Icons -->
+    <!-- ========================================================= -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Case Study CSS -->
+    <link rel="stylesheet" href="css/case-study.css">
+
+</head>
+
+<body>
+
+    <!-- Preloader (Same as Homepage) -->
+
+
+    <!-- Cursor (Same as Homepage) -->
+
+
+    <!-- Scroll Progress (Same as Homepage) -->
+
+
+    <!-- Header (Same as Homepage) -->
+
+
+    <!-- ==========================================================
+        Custom Cursor
+    =========================================================== -->
+    <div class="cursor">
+        <div class="cursor__dot"></div>
+        <div class="cursor__outline"></div>
+    </div>
+
+    <!-- ==========================================================
+        Scroll Progress
+    =========================================================== -->
+    <div class="scroll-progress">
+        <span class="scroll-progress__bar"></span>
+    </div>
+
+    <!-- ==========================================================
+        Page Preloader
+    =========================================================== -->
+    <div class="preloader" id="preloader">
+
+        <div class="preloader__inner">
+
+            <div class="preloader__logo">
+                <span><img src="favicon.ico" alt="logo_"></span>
+            </div>
+
+            <div class="preloader__loading">
+                <span class="preloader__line"></span>
+            </div>
+
+            <p class="preloader__text">
+                Loading Portfolio...
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================================================
+        Site Wrapper
+    =========================================================== -->
+    <div class="site-wrapper">
+
+        <!-- Header Starts Here (Part 3) -->
+
+        <!-- ==========================================================
+            Header
+        =========================================================== -->
+        <header class="header" id="header">
+
+            <div class="container">
+
+                <div class="header__wrapper">
+
+                    <!-- Logo -->
+                    <a href="#project_hero" class="logo" aria-label="Vishal Nalawade Portfolio">
+                        <!-- <span class="logo__text">VN.</span> -->
+                        <span><img src="favicon.ico" alt="logo_"></span>
+
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <nav class="nav" aria-label="Primary Navigation">
+
+                        <ul class="nav__list">
+
+                            <li class="nav__item">
+                                <a href="index.html#hero" class="nav__link">
+                                    Home
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#projects" class="nav__link">
+                                    Projects
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#about" class="nav__link">
+                                    About
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#services" class="nav__link">
+                                    Services
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#skills" class="nav__link">
+                                    Skills
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#contact" class="nav__link">
+                                    Contact
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                    <!-- Right Actions -->
+                    <div class="header__actions">
+
+                        <a href="index.html#contact" class="btn btn--primary">
+                            Let's Talk
+                        </a>
+
+                        <button class="menu-toggle" id="menu-toggle" aria-label="Open Menu" aria-expanded="false"
+                            aria-controls="mobile-menu">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- ==========================================================
+            Mobile Navigation
+        =========================================================== -->
+
+        <aside class="mobile-menu" id="mobile-menu" aria-hidden="true">
+
+            <div class="mobile-menu__header">
+
+                <a href="#project_hero" class="logo">
+                    <span class="logo__text">VN.</span>
+                </a>
+
+                <button class="mobile-menu__close" id="menu-close" aria-label="Close Menu">
+
+                    <i class="ri-close-line"></i>
+
+                </button>
+
+            </div>
+
+            <nav class="mobile-nav">
+
+                <ul class="mobile-nav__list">
+
+                    <li>
+                        <a href="index.html#hero">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#projects">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#about">About</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#services">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#skills">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="mobile-menu__footer">
+
+                <a href="index.html#contact" class="btn btn--primary btn--full">
+                    Let's Talk
+                </a>
+
+            </div>
+
+        </aside>
+
+
+
+        <main class="case-study">
+
+            <!-- Breadcrumb -->
+
+
+            <!-- Hero -->
+
+            <!-- =========================
+     Breadcrumb
+========================= -->
+
+            <section class="case-study__breadcrumb" id="project_hero">
+                <div class="container">
+
+                    <nav class="breadcrumb" aria-label="Breadcrumb">
+
+                        <a href="index.html">Home</a>
+
+                        <span>/</span>
+
+                        <a href="index.html#projects">Projects</a>
+
+                        <span>/</span>
+
+                        <span aria-current="page">Royal Sofa Luxury Furniture Landing Page</span>
+
+                    </nav>
+
+                </div>
+            </section>
+
+
+            <!-- =========================
+     Hero
+========================= -->
+
+            <section class="case-study__hero">
+
+                <div class="container">
+
+                    <div class="case-study__hero-content">
+
+                        <span class="case-study__badge">
+                            Luxury Furniture Landing Page
+                        </span>
+
+                        <h1 class="case-study__title">
+                            Royal Sofa Luxury Furniture
+                        </h1>
+
+                        <p class="case-study__description">
+
+                            A luxury furniture landing page designed to highlight premium
+                            craftsmanship, elegant product presentation, and a seamless
+                            buying experience. The interface guides users from product
+                            discovery to checkout with minimal distractions, creating
+                            a refined and conversion-focused shopping journey.
+
+                        </p>
+
+                        <div class="case-study__actions">
+
+                            <a href="#overview" class="btn btn--primary">
+
+                                Explore Case Study
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="case-study__hero-image">
+
+                        <img src="assets/images/project-case-study/royal-sofa/hero.webp" alt="Royal Sofa Homepage"
+                            loading="eager">
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- Project Overview -->
+
+            <section id="overview" class="case-study__section case-study__overview">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Overview
+                        </span>
+
+                        <h2 class="section-title">
+                            Project Overview
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__overview-content">
+
+                        <p>
+
+                            This project is a luxury furniture landing page designed to showcase premium handcrafted
+                            sofas while creating a smooth and focused buying experience. The primary goal was to present
+                            the product in a premium way, highlight its craftsmanship, and guide users naturally toward
+                            making a purchase without unnecessary distractions.
+
+                            Since this is a landing page concept, every section is carefully arranged to keep visitors
+                            engaged while providing enough information to build confidence before purchasing.
+
+                            Instead of navigating through multiple pages, users can explore product details, features,
+                            reviews, and complete their purchase journey from a single page, with the shopping cart
+                            appearing as a popup to maintain a seamless experience.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Project Information -->
+
+            <!-- =========================
+     Project Information
+========================= -->
+
+            <section class="case-study__section case-study__project-info">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Information
+                        </span>
+
+                        <h2 class="section-title">
+                            Project Information
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__info-grid">
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-user-star-line"></i>
+
+                            <span>Project Role</span>
+
+                            <h3>UI/UX Design</h3>
+
+                        </div>
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-layout-grid-line"></i>
+
+                            <span>Category</span>
+
+                            <h3>Luxury Furniture Landing Page</h3>
+
+                        </div>
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-pen-nib-line"></i>
+
+                            <span>Tools</span>
+
+                            <h3>Figma</h3>
+
+                        </div>
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-computer-line"></i>
+
+                            <span>Platform</span>
+
+                            <h3>Responsive Website</h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Challenge -->
+
+            <!-- =========================
+     Challenge
+========================= -->
+
+            <section class="case-study__section case-study__challenge">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Challenge
+                        </span>
+
+                        <h2 class="section-title">
+                            Design Challenge
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__content">
+
+                        <div class="case-study__text">
+                            <p>
+
+                                <!--  CHALLENGE CONTENT  -->
+
+
+                                Luxury furniture is a high-value purchase, and customers usually spend time evaluating
+                                quality, materials, warranty, and trust before making a decision.
+
+                                The challenge was to design a landing page that:
+
+                                Creates a premium first impression.
+                                Highlights product craftsmanship through large visuals.
+                                Builds trust without overwhelming users.
+                                Presents product variations clearly.
+                                Simplifies the buying process.
+                                Keeps users focused on purchasing without leaving the landing page.
+
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Design Goals -->
+
+            <!-- =========================
+     Design Goals
+========================= -->
+
+            <section class="case-study__section case-study__design-goals">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            UX Goals
+                        </span>
+
+                        <h2 class="section-title">
+                            User Experience Design Goals
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__goals-grid">
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-sofa-line"></i>
+
+                            <h3>
+                                Premium Product Discovery
+                            </h3>
+
+                            <p>
+                                Explore premium furniture effortlessly.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-award-line"></i>
+
+                            <h3>
+                                Product Quality
+                            </h3>
+
+                            <p>
+                                Understand product quality before purchasing.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-palette-line"></i>
+
+                            <h3>
+                                Color Comparison
+                            </h3>
+
+                            <p>
+                                Compare product colors easily.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-shield-check-line"></i>
+
+                            <h3>
+                                Customer Trust
+                            </h3>
+
+                            <p>
+                                Build trust through customer reviews.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                            <h3>
+                                Instant Cart Access
+                            </h3>
+
+                            <p>
+                                Access the cart instantly.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-secure-payment-line"></i>
+
+                            <h3>
+                                Effortless Checkout
+                            </h3>
+
+                            <p>
+                                Complete the checkout process with minimal effort.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-focus-3-line"></i>
+
+                            <h3>
+                                Focused Shopping
+                            </h3>
+
+                            <p>
+                                Stay focused without unnecessary page navigation.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Design Process -->
+
+            <!-- =========================
+     Design Process
+========================= -->
+
+            <section class="case-study__section case-study__process">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Process
+                        </span>
+
+                        <h2 class="section-title">
+                            Design Process
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__timeline">
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+                                01
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+                                    Research & Requirement Understanding
+                                </h3>
+
+                                <p>
+                                    Identified business goals, target audience, premium furniture offerings, and user
+                                    expectations to create a luxury shopping experience.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+                                02
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+                                    Information Architecture
+                                </h3>
+
+                                <p>
+                                    Structured product categories, navigation, and shopping flow to help users browse
+                                    furniture collections with ease.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+                                03
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+                                    UI Design
+                                </h3>
+
+                                <p>
+                                    Designed a clean, elegant interface using premium visuals, balanced layouts, and
+                                    clear call-to-action elements.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+                                04
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+                                    Interactive Prototype
+                                </h3>
+
+                                <p>
+                                    Created interactive user flows to validate product browsing, cart interactions, and
+                                    the overall shopping experience.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+                                05
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+                                    Luxury Shopping Experience
+                                </h3>
+
+                                <p>
+                                    Refined the end-to-end shopping journey to encourage confident purchasing through
+                                    seamless navigation, product transparency, and a distraction-free checkout
+                                    experience.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+    </div>
+
+    </section>
+
+
+    <!-- Design Approach -->
+
+    <!-- =========================
+     Design Approach 
+========================= -->
+
+
+    <section class="case-study__section case-study__design-approach">
+
+        <div class="container">
+
+            <div class="case-study__section-header">
+
+                <span class="section-tag">
+                    Design Approach
+                </span>
+
+                <h2 class="section-title">
+                    Design Approach
+                </h2>
+
+                <p>
+                    The interface follows a clean, elegant, and luxury-inspired design language.
+                    Every section is intentionally placed to guide visitors from product discovery to purchase while
+                    maintaining a premium visual experience.
+                </p>
+
+            </div>
+
+            <div class="case-study__goals-grid">
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-layout-4-line"></i>
+
+                    <h3>Strong Visual Hierarchy</h3>
+
+                    <p>
+                        Strong visual hierarchy
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-layout-grid-line"></i>
+
+                    <h3>Spacious Layouts</h3>
+
+                    <p>
+                        Spacious layouts
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-sofa-line"></i>
+
+                    <h3>Premium Product Presentation</h3>
+
+                    <p>
+                        Premium product presentation
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-route-line"></i>
+
+                    <h3>Easy Navigation</h3>
+
+                    <p>
+                        Easy navigation
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-cursor-line"></i>
+
+                    <h3>Clear Call-to-Action</h3>
+
+                    <p>
+                        Clear Call-to-Action buttons
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-focus-3-line"></i>
+
+                    <h3>Focused Shopping Experience</h3>
+
+                    <p>
+                        Distraction-free shopping experience
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Color Strategy -->
+
+    <!-- =========================
+     Color Strategy
+========================= -->
+
+    <section class="case-study__section case-study__colors">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Color Strategy
+                    </span>
+
+                    <h2 class="section-title">
+                        Luxury Through Color
+                    </h2>
+
+                    <p>
+                        The interface uses a combination of black, gold, warm brown, and soft beige tones to represent
+                        luxury, elegance, and premium craftsmanship.
+                    </p>
+
+                    <p>
+                        The dark background allows the furniture to become the primary visual focus, while gold accents
+                        emphasize sophistication and exclusivity. Brown tones complement the wooden craftsmanship and
+                        reinforce the premium identity of the brand.
+                    </p>
+
+                </div>
+
+                <div class="case-study__color-palette">
+
+                    <div class="case-study__color-card">
+
+                        <div class="case-study__color-preview" style="background:#121212;">
+                        </div>
+
+                        <h3>Luxury Black</h3>
+
+                        <span>#121212</span>
+
+                    </div>
+
+                    <div class="case-study__color-card">
+
+                        <div class="case-study__color-preview" style="background:#D0A667;">
+                        </div>
+
+                        <h3>Premium Gold</h3>
+
+                        <span>#D0A667</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+     Homepage
+========================= -->
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Homepage
+                    </span>
+
+                    <h2>
+                        Homepage Experience
+                    </h2>
+
+                    <p>
+                        The homepage is designed to immediately introduce the brand, showcase premium furniture, and
+                        guide visitors toward making a purchase with confidence.
+                    </p>
+
+                    <h3>
+                        Hero Section
+                    </h3>
+
+                    <p>
+                        The first screen immediately communicates premium brand identity, luxury product showcase, the
+                        main value proposition, and the primary Call-to-Action.
+                    </p>
+
+                    <p>
+                        A large sofa visual becomes the centerpiece of the design, instantly attracting attention while
+                        the <strong>Buy Now</strong> button encourages users to begin their shopping journey
+                        immediately.
+                    </p>
+
+                    <p>
+                        The floating cart shortcut provides instant access to selected products from anywhere on the
+                        landing page, enabling a seamless shopping journey without interrupting product exploration.
+                    </p>
+
+                </div>
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/royal-sofa/home.webp" alt="Royal Sofa Homepage"
+                        loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Services Showcase -->
+
+    <!-- About Showcase -->
+    <!-- =========================
+     About Showcase
+========================= -->
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        About
+                    </span>
+
+                    <h2 class="section-title">
+                        About Section
+                    </h2>
+
+                    <p>
+                        The About section introduces the craftsmanship behind the furniture while highlighting the use
+                        of premium wood materials.
+                    </p>
+
+                    <p>
+                        A dedicated warranty highlight is included within the section to reinforce product durability
+                        and long-term reliability.
+                    </p>
+
+                    <p>
+                        Instead of presenting lengthy paragraphs, the information is broken into smaller content blocks
+                        that are easier to scan while maintaining the premium look of the landing page.
+                    </p>
+
+                </div>
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/royal-sofa/about.webp" alt="About Section"
+                        loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Product Details Showcase -->
+
+    <!-- =========================
+     Product Details Showcase
+========================= -->
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content case-study__content--reverse">
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/royal-sofa/product.webp" alt="Product Details"
+                        loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                    </button>
+
+                </div>
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Product
+                    </span>
+
+                    <h2 class="section-title">
+                        Product Details Section
+                    </h2>
+
+                    <p>
+                        The product section is designed to help users explore the sofa without leaving the landing page.
+                    </p>
+
+                    <p>
+                        Customers can view multiple product images using image thumbnails, switch between available
+                        color variants, adjust the product quantity, and view the product price instantly.
+                    </p>
+
+                    <p>
+                        Keeping these interactions together allows users to compare options and make purchase decisions
+                        more efficiently while maintaining a clean and premium shopping experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--   Customer Reviews Showcase -->
+
+
+    <!-- =========================
+       Customer Reviews Showcase
+========================= -->
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Reviews
+                    </span>
+
+                    <h2 class="section-title">
+                        Customer Reviews
+                    </h2>
+
+                    <p>
+                        Purchasing premium furniture requires trust.
+                    </p>
+
+                    <p>
+                        The review section provides customer feedback to reassure visitors about product quality,
+                        helping reduce hesitation before making a purchase.
+                    </p>
+
+                </div>
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/royal-sofa/review.webp" alt="Customer Reviews"
+                        loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Testimonials Showcase -->
+
+
+    <!-- Cart Experience (Popup) Showcase -->
+
+
+    <!-- =========================
+      Cart Experience (Popup) Showcase
+========================= -->
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content case-study__content--reverse">
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/royal-sofa/cart.webp" alt="Cart Experience"
+                        loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                    </button>
+
+                </div>
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Cart
+                    </span>
+
+                    <h2 class="section-title">
+                        Cart Experience (Popup)
+                    </h2>
+
+                    <p>
+                        Since this project is designed as a landing page, opening a separate cart page would interrupt
+                        the shopping journey.
+                    </p>
+
+                    <p>
+                        To solve this, the shopping cart is designed as a popup modal.
+                    </p>
+
+                    <p>
+                        Users can review selected products, update quantities, view subtotal instantly, check delivery
+                        charges, view GST, confirm the delivery address, select their preferred payment method, and
+                        complete payment without navigating away from the landing page.
+                    </p>
+
+                    <p>
+                        This approach creates a faster checkout experience while keeping users engaged with the product
+                        page.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- User Experience Goals
+
+
+          =========================
+     User Experience Goals
+========================= -->
+
+    <!-- <section class="case-study__section case-study__ux-goals">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+
+                            UX Goals
+
+                        </span>
+
+                        <h2 class="section-title">
+
+                            User Experience Goals
+
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__goals-grid">
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-service-line"></i>
+
+                            <h3>Service Discovery</h3>
+
+                            <p>Understand available services quickly.</p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>02</h3>
+
+                            <p>
+                                View consultation pricing before booking.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>03</h3>
+
+                            <p>
+                                Build trust through patient testimonials.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>04</h3>
+
+                            <p>
+                                Find important actions without searching.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>05</h3>
+
+                            <p>
+                                Complete the booking process with minimal effort.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>06</h3>
+
+                            <p>
+                                Receive instant booking confirmation.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>  -->
+
+
+    <!-- Conversion Strategy -->
+
+    <!-- =========================
+     Conversion Strategy
+========================= -->
+
+
+    <section class="case-study__section case-study__challenge">
+
+        <div class="container">
+
+            <div class="case-study__section-header">
+
+                <span class="section-tag">
+                    Strategy
+                </span>
+
+                <h2 class="section-title">
+                    Conversion Strategy
+                </h2>
+
+            </div>
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <p>
+
+                        Since this project is designed as a landing page, the primary goal is to keep users focused on a
+                        single conversion—purchasing the featured sofa.
+
+                    </p>
+
+                    <p>
+
+                        Instead of redirecting users to multiple pages, important actions such as product selection,
+                        quantity updates, and checkout are kept within the same experience. The shopping cart opens as a
+                        popup modal, allowing customers to review their order and complete the purchase without leaving
+                        the landing page.
+
+                    </p>
+
+                    <p>
+
+                        This approach minimizes distractions, reduces unnecessary navigation, and creates a smoother
+                        buying journey that encourages faster purchase decisions.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Design Highlights -->
+
+    <!-- =========================
+     Design Highlights
+========================= -->
+
+    <section class="case-study__section case-study__highlights">
+
+        <div class="container">
+
+            <div class="case-study__section-header">
+
+                <span class="section-tag">
+
+                    Highlights
+
+                </span>
+
+                <h2 class="section-title">
+
+                    Design Highlights
+
+                </h2>
+
+            </div>
+
+            <div class="case-study__highlights-grid">
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-vip-crown-line"></i>
+
+                    <h3>
+                        Luxury Interface
+                    </h3>
+
+                    <p>
+                        Luxury-inspired interface.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-layout-4-line"></i>
+
+                    <h3>
+                        Visual Hierarchy
+                    </h3>
+
+                    <p>
+                        Elegant visual hierarchy.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-sofa-line"></i>
+
+                    <h3>
+                        Product Showcase
+                    </h3>
+
+                    <p>
+                        Premium product presentation.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-gallery-line"></i>
+
+                    <h3>
+                        Product Gallery
+                    </h3>
+
+                    <p>
+                        Interactive product gallery.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-palette-line"></i>
+
+                    <h3>
+                        Color Selection
+                    </h3>
+
+                    <p>
+                        Color selection experience.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-add-circle-line"></i>
+
+                    <h3>
+                        Quantity Control
+                    </h3>
+
+                    <p>
+                        Quantity selector.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-shopping-cart-2-line"></i>
+
+                    <h3>
+                        Floating Cart
+                    </h3>
+
+                    <p>
+                        Floating cart shortcut.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-secure-payment-line"></i>
+
+                    <h3>
+                        Checkout Flow
+                    </h3>
+
+                    <p>
+                        Popup shopping cart, simple checkout workflow, and responsive page structure.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Final Outcome -->
+
+    <!-- =========================
+     Final Outcome
+========================= -->
+
+    <section class="case-study__section case-study__outcome">
+
+        <div class="container">
+
+            <div class="case-study__section-header">
+
+                <span class="section-tag">
+
+                    Outcome
+
+                </span>
+
+                <h2 class="section-title">
+
+                    Final Outcome
+
+                </h2>
+
+            </div>
+
+            <div class="case-study__content">
+
+                <div class="case-study__text case-study__outcome-card">
+
+                    <p>
+
+                        The final design delivers a clean, premium, and conversion-focused furniture shopping experience
+                        that reflects the brand's luxury identity.
+
+                    </p>
+
+                    <p>
+
+                        By combining elegant visuals, premium product presentation, customer reviews, interactive
+                        product selection, and a popup checkout experience, the interface minimizes distractions and
+                        creates a smooth purchasing journey from product discovery to payment.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Next Project -->
+
+    <!-- =========================
+     Next Project
+========================= -->
+
+    <section class="case-study__section case-study__next-project">
+
+        <div class="container">
+
+            <div class="case-study__next-card">
+
+                <span class="section-tag">
+
+                    Next Project
+
+                </span>
+
+                <h2>
+
+                    Grocery Delivery App
+
+                </h2>
+
+                <p>
+
+                    Mobile App UI
+
+                    <br>
+
+                    A modern grocery shopping experience with intuitive navigation, clean layouts, and a user-friendly
+                    checkout flow.
+
+                </p>
+
+                <a href="project-grocery-app.html" class="btn btn--primary">
+
+                    View Case Study
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    </main>
+
+
+    <!-- Footer (Same as Homepage) -->
+
+
+    <!-- =========================
+     Image Lightbox
+========================= -->
+
+    <div class="case-study__lightbox" role="dialog" aria-modal="true" aria-hidden="true" hidden>
+
+        <button class="case-study__lightbox-close" aria-label="Close">
+
+            <i class="ri-close-line"></i>
+
+        </button>
+
+        <button class="case-study__lightbox-prev" aria-label="Previous">
+
+            <i class="ri-arrow-left-s-line"></i>
+
+        </button>
+
+        <div class="case-study__lightbox-content">
+
+            <img src="" alt="" class="case-study__lightbox-image">
+
+            <p class="case-study__lightbox-caption"></p>
+
+            <span class="case-study__lightbox-counter"></span>
+
+        </div>
+
+        <button class="case-study__lightbox-next" aria-label="Next">
+
+            <i class="ri-arrow-right-s-line"></i>
+
+        </button>
+
+    </div>
+
+
+
+
+    <!-- ==========================================================
+    Footer
+========================================================== -->
+
+
+
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer__top">
+
+                <a href="#project_hero" class="footer__logo">
+                    Vishal N<span>.</span>
+                </a>
+
+                <nav class="footer__nav">
+
+                    <a href="index.html#hero">Home</a>
+                    <a href="index.html#projects">Projects</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#services">Services</a>
+                    <a href="index.html#skills">Skills</a>
+                    <a href="index.html#contact">Contact</a>
+
+                </nav>
+
+                <div class="footer__social">
+
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nalawadevishal2001@gmail.com" target="_blank"
+                        rel="noopener noreferrer" aria-label="Email">
+                        <i class="ri-mail-line"></i>
+                    </a>
+
+                    <a href="https://wa.me/917030557456" target="_blank" rel="noopener noreferrer"
+                        aria-label="WhatsApp">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+
+                    <a href="https://github.com/vish70" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="ri-github-line"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer__bottom">
+
+                <a href="#project_hero" class="footer__logo">
+
+                    <img src="favicon.ico" alt="Vishal Nalawade Logo" class="footer__logo">
+                </a>
+
+                <p>
+                    © 2026 Vishal Nalawade. All rights reserved.
+                </p>
+
+                <p>
+                    Designed & Developed by Vishal Nalawade.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <!-- ==========================================================
+    Back To Top
+========================================================== -->
+
+    <button class="scroll-top" id="scroll-top" aria-label="Back to Top">
+
+        <i class="ri-arrow-up-line"></i>
+
+    </button>
+
+
+
+
+
+    <!-- Scroll To Top -->
+
+
+    <!-- GSAP CDN -->
+
+    <!-- ==========================================================
+    JavaScript
+========================================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js">
+    </script>
+
+    <!-- ScrollTrigger CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js">
+    </script>
+
+
+    <!-- Global Script -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Homepage GSAP -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- Case Study Script -->
+    <script src="assets/js/case-study.js"></script>
+
+    <!-- Case Study GSAP -->
+    <script src="assets/js/case-study-gsap.js"></script>
+
+    <!-- Navigation Router -->
+    <script src="js/navigation-router.js"></script>
+
+    <!-- Page Router -->
+    <script src="js/page-router.js"></script>
+
+
+</body>
+
+</html>

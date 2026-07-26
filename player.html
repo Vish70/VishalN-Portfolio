@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ========================================================= -->
+    <!-- Basic Meta -->
+    <!-- ========================================================= -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Vishal Nalawade | UI/UX Designer & Website Designer
+    </title>
+
+    <meta name="description"
+        content="Portfolio of Vishal Nalawade, a UI/UX Designer specializing in modern websites, mobile app interfaces, interactive prototypes and digital experiences.">
+
+    <meta name="keywords"
+        content="UI UX Designer, Website Designer, Figma, Portfolio, Mobile App Design, Responsive Website">
+
+    <meta name="author" content="Vishal Nalawade">
+
+    <meta name="theme-color" content="#FF9A30">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- ========================================================= -->
+    <!-- Open Graph -->
+    <!-- ========================================================= -->
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="Vishal Nalawade | UI/UX Designer">
+
+    <meta property="og:description" content="Modern UI/UX Designer Portfolio">
+
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <meta property="og:url" content="https://vish70.github.io/VishalN-Portfolio/">
+
+    <!-- ========================================================= -->
+    <!-- Favicon -->
+    <!-- ========================================================= -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <link rel="icon" href="favicon.ico?v=3" type="image/x-icon">
+
+
+    <!-- ========================================================= -->
+    <!-- Fonts -->
+    <!-- ========================================================= -->
+
+    <!-- Local General Sans -->
+
+    <link rel="preload" href="assets/fonts/GeneralSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- ========================================================= -->
+    <!-- Remix Icons -->
+    <!-- ========================================================= -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css">
+
+    <!-- ========================================================= -->
+    <!-- CSS -->
+    <!-- ========================================================= -->
+
+    <link rel="stylesheet" href="css/player.css">
+
+    <!-- <link rel="stylesheet" href="css/components.css">
+
+    <link rel="stylesheet" href="css/animations.css">
+
+    <link rel="stylesheet" href="css/responsive.css"> -->
+
+</head>
+
+<body>
+
+<div class="player">
+
+    <!-- Overlay -->
+
+    <div class="player__overlay"></div>
+
+    <!-- Close -->
+
+    <button
+        class="player__button player__button--close"
+        id="back-button"
+        aria-label="Back">
+
+        <i class="ri-close-line"></i>
+
+    </button>
+
+    <!-- Previous -->
+
+    <button
+        class="player__button player__button--prev"
+        id="player-prev"
+        aria-label="Previous">
+
+        <i class="ri-arrow-left-s-line"></i>
+
+    </button>
+
+    <!-- Content -->
+
+    <div class="player__content">
+
+        <video
+
+            id="player-video"
+
+            class="player__video"
+
+            controls
+
+            playsinline
+
+            preload="auto"
+
+            autoplay>
+
+        </video>
+
+
+        <div class="player__info">
+
+    <span
+        class="player__category"
+        id="player-category">
+    </span>
+
+    <h1
+        class="player__title"
+        id="player-title">
+    </h1>
+
+    <p
+        class="player__description"
+        id="player-description">
+    </p>
+
+</div>
+
+
+    </div>
+
+    <!-- Next -->
+
+    <button
+        class="player__button player__button--next"
+        id="player-next"
+        aria-label="Next">
+
+        <i class="ri-arrow-right-s-line"></i>
+
+    </button>
+
+</div>
+
+<script src="assets/js/player.js"></script>
+
+</body>
+
+</html>

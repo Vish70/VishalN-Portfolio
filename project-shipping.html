@@ -1,0 +1,1936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ========================================================= -->
+    <!-- Basic Meta -->
+    <!-- ========================================================= -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Vishal Nalawade | UI/UX Designer & Website Designer
+    </title>
+
+    <meta name="description"
+        content="Portfolio of Vishal Nalawade, a UI/UX Designer specializing in modern websites, mobile app interfaces, interactive prototypes and digital experiences.">
+
+    <meta name="keywords"
+        content="UI UX Designer, Website Designer, Figma, Portfolio, Mobile App Design, Responsive Website">
+
+    <meta name="author" content="Vishal Nalawade">
+
+    <meta name="theme-color" content="#FF9A30">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- ========================================================= -->
+    <!-- Open Graph -->
+    <!-- ========================================================= -->
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="Vishal Nalawade | UI/UX Designer">
+
+    <meta property="og:description" content="Modern UI/UX Designer Portfolio">
+
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <meta property="og:url" content="https://vish70.github.io/VishalN-Portfolio/">
+
+    <!-- ========================================================= -->
+    <!-- Favicon -->
+    <!-- ========================================================= -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <link rel="icon" href="favicon.ico?v=3" type="image/x-icon">
+
+
+    <!-- ========================================================= -->
+    <!-- Fonts -->
+    <!-- ========================================================= -->
+
+    <!-- Local General Sans -->
+
+    <link rel="preload" href="assets/fonts/GeneralSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- ========================================================= -->
+    <!-- Remix Icons -->
+    <!-- ========================================================= -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Case Study CSS -->
+    <link rel="stylesheet" href="css/case-study.css">
+
+</head>
+
+<body>
+
+    <!-- Preloader (Same as Homepage) -->
+
+
+    <!-- Cursor (Same as Homepage) -->
+
+
+    <!-- Scroll Progress (Same as Homepage) -->
+
+
+    <!-- Header (Same as Homepage) -->
+
+
+    <!-- ==========================================================
+        Custom Cursor
+    =========================================================== -->
+    <div class="cursor">
+        <div class="cursor__dot"></div>
+        <div class="cursor__outline"></div>
+    </div>
+
+    <!-- ==========================================================
+        Scroll Progress
+    =========================================================== -->
+    <div class="scroll-progress">
+        <span class="scroll-progress__bar"></span>
+    </div>
+
+    <!-- ==========================================================
+        Page Preloader
+    =========================================================== -->
+    <div class="preloader" id="preloader">
+
+        <div class="preloader__inner">
+
+            <div class="preloader__logo">
+                <span><img src="favicon.ico" alt="logo_"></span>
+            </div>
+
+            <div class="preloader__loading">
+                <span class="preloader__line"></span>
+            </div>
+
+            <p class="preloader__text">
+                Loading Portfolio...
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================================================
+        Site Wrapper
+    =========================================================== -->
+    <div class="site-wrapper">
+
+        <!-- Header Starts Here (Part 3) -->
+
+        <!-- ==========================================================
+            Header
+        =========================================================== -->
+        <header class="header" id="header">
+
+            <div class="container">
+
+                <div class="header__wrapper">
+
+                    <!-- Logo -->
+                    <a href="#project_hero" class="logo" aria-label="Vishal Nalawade Portfolio">
+                        <!-- <span class="logo__text">VN.</span> -->
+                        <span><img src="favicon.ico" alt="logo_"></span>
+
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <nav class="nav" aria-label="Primary Navigation">
+
+                        <ul class="nav__list">
+
+                            <li class="nav__item">
+                                <a href="index.html#hero" class="nav__link">
+                                    Home
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#projects" class="nav__link">
+                                    Projects
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#about" class="nav__link">
+                                    About
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#services" class="nav__link">
+                                    Services
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#skills" class="nav__link">
+                                    Skills
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#contact" class="nav__link">
+                                    Contact
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                    <!-- Right Actions -->
+                    <div class="header__actions">
+
+                        <a href="index.html#contact" class="btn btn--primary">
+                            Let's Talk
+                        </a>
+
+                        <button class="menu-toggle" id="menu-toggle" aria-label="Open Menu" aria-expanded="false"
+                            aria-controls="mobile-menu">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- ==========================================================
+            Mobile Navigation
+        =========================================================== -->
+
+        <aside class="mobile-menu" id="mobile-menu" aria-hidden="true">
+
+            <div class="mobile-menu__header">
+
+                <a href="#project_hero" class="logo">
+                    <span class="logo__text">VN.</span>
+                </a>
+
+                <button class="mobile-menu__close" id="menu-close" aria-label="Close Menu">
+
+                    <i class="ri-close-line"></i>
+
+                </button>
+
+            </div>
+
+            <nav class="mobile-nav">
+
+                <ul class="mobile-nav__list">
+
+                    <li>
+                        <a href="index.html#hero">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#projects">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#about">About</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#services">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#skills">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="mobile-menu__footer">
+
+                <a href="index.html#contact" class="btn btn--primary btn--full">
+                    Let's Talk
+                </a>
+
+            </div>
+
+        </aside>
+
+
+
+        <main class="case-study">
+
+            <!-- Breadcrumb -->
+
+
+            <!-- Hero -->
+
+            <!-- =========================
+     Breadcrumb
+========================= -->
+
+            <section class="case-study__breadcrumb" id="project_hero">
+                <div class="container">
+
+                    <nav class="breadcrumb" aria-label="Breadcrumb">
+
+                        <a href="index.html">Home</a>
+
+                        <span>/</span>
+
+                        <a href="index.html#projects">Projects</a>
+
+                        <span>/</span>
+
+                        <span aria-current="page">Shipping & Logistics Website</span>
+
+                    </nav>
+
+                </div>
+            </section>
+
+
+            <!-- =========================
+     Hero
+========================= -->
+
+            <section class="case-study__hero">
+
+                <div class="container">
+
+                    <div class="case-study__hero-content">
+
+                        <span class="case-study__badge">
+                            Shipping & Logistics Website
+                        </span>
+
+                        <h1 class="case-study__title">
+                            Alfa Omega Shipping & Consultancy Website
+                        </h1>
+
+                        <p class="case-study__description">
+
+                            Alfa Omega Shipping & Consultancy Website
+                            A modern shipping and logistics website designed to showcase transportation services,
+                            simplify shipment tracking, share industry insights through blogs, and provide businesses
+                            with a seamless enquiry experience through a clean and professional interface.
+                        </p>
+
+                        <div class="case-study__actions">
+
+                            <a href="#overview" class="btn btn--primary">
+
+                                Explore Case Study
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="case-study__hero-image">
+
+                        <img src="assets/images/project-case-study/shipping/hero.webp" alt="Royal Sofa Homepage"
+                            loading="eager">
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- Project Overview -->
+
+            <section id="overview" class="case-study__section case-study__overview">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Overview
+                        </span>
+
+                        <h2 class="section-title">
+                            Project Overview
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__overview-content">
+
+                        <p>
+
+                            This project is a modern shipping and logistics website designed for Alfa Omega Shipping &
+                            Consultancy to showcase transportation services, simplify shipment tracking, and help
+                            businesses connect with the company effortlessly.
+
+                            The primary goal was to organize complex logistics information into a clean, professional
+                            interface that builds trust while making it easy for visitors to explore services, track
+                            shipments, read industry updates, and contact the company.
+
+                            Instead of overwhelming users with technical information, the website presents every section
+                            in a structured way that guides visitors naturally toward taking action.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Project Information -->
+
+            <!-- =========================
+     Project Information
+========================= -->
+
+            <section class="case-study__section case-study__project-info">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Information
+                        </span>
+
+                        <h2 class="section-title">
+                            Project Information
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__info-grid">
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-user-star-line"></i>
+
+                            <span>Project Role</span>
+
+                            <h3>UI/UX Design</h3>
+
+                        </div>
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-layout-grid-line"></i>
+
+                            <span>Category</span>
+
+                            <h3>Shipping & Logistics Website</h3>
+
+                        </div>
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-pen-nib-line"></i>
+
+                            <span>Tools</span>
+
+                            <h3>Figma</h3>
+
+                        </div>
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-computer-line"></i>
+
+                            <span>Platform</span>
+
+                            <h3>Responsive Website</h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Challenge -->
+
+            <!-- =========================
+     Challenge
+========================= -->
+
+            <section class="case-study__section case-study__challenge">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Challenge
+                        </span>
+
+                        <h2 class="section-title">
+                            Design Challenge
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__content">
+
+                        <div class="case-study__text">
+                            <p>
+
+                                <!--  CHALLENGE CONTENT  -->
+
+
+                                Shipping and logistics websites often contain large amounts of technical information,
+                                making it difficult for users to quickly understand available services or complete
+                                important tasks like shipment tracking.
+
+                                The challenge was to design a website that:
+
+                                Builds trust from the first visit.
+                                Clearly presents logistics services.
+                                Makes shipment tracking quick and accessible.
+                                Explains transportation solutions without overwhelming users.
+                                Encourages visitors to contact the company.
+                                Maintains a professional corporate identity.
+
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Design Goals -->
+
+            <!-- =========================
+     Design Goals
+========================= -->
+<section class="case-study__section case-study__design-goals">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                UX Goals
+            </span>
+
+            <h2 class="section-title">
+                User Experience Design Goals
+            </h2>
+
+        </div>
+
+        <div class="case-study__goals-grid">
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-ship-line"></i>
+
+                <h3>
+                    Service Discovery
+                </h3>
+
+                <p>
+                    Learn about shipping services quickly.
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-map-pin-time-line"></i>
+
+                <h3>
+                    Shipment Tracking
+                </h3>
+
+                <p>
+                    Track shipments without confusion.
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-route-line"></i>
+
+                <h3>
+                    Logistics Solutions
+                </h3>
+
+                <p>
+                    Explore logistics solutions easily.
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-article-line"></i>
+
+                <h3>
+                    Industry Updates
+                </h3>
+
+                <p>
+                    Read industry updates.
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-shield-check-line"></i>
+
+                <h3>
+                    Build Trust
+                </h3>
+
+                <p>
+                    Build confidence in the company.
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-customer-service-2-line"></i>
+
+                <h3>
+                    Easy Contact
+                </h3>
+
+                <p>
+                    Contact the business with minimal effort.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+            <!-- Design Process -->
+
+            <!-- =========================
+     Design Process
+========================= -->
+
+<section class="case-study__section case-study__process">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                Process
+            </span>
+
+            <h2 class="section-title">
+                Design Process
+            </h2>
+
+        </div>
+
+        <div class="case-study__timeline">
+
+            <div class="case-study__timeline-item">
+
+                <div class="case-study__timeline-number">
+                    01
+                </div>
+
+                <div class="case-study__timeline-content">
+
+                    <h3>
+                        Research & Requirement Understanding
+                    </h3>
+
+                    <p>
+                        Identified business goals, logistics services, and user requirements to create an efficient and trustworthy shipping experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="case-study__timeline-item">
+
+                <div class="case-study__timeline-number">
+                    02
+                </div>
+
+                <div class="case-study__timeline-content">
+
+                    <h3>
+                        Information Architecture
+                    </h3>
+
+                    <p>
+                        Organized services, shipment tracking, company information, and navigation to help users access key logistics features with ease.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="case-study__timeline-item">
+
+                <div class="case-study__timeline-number">
+                    03
+                </div>
+
+                <div class="case-study__timeline-content">
+
+                    <h3>
+                        UI Design
+                    </h3>
+
+                    <p>
+                        Designed a clean, professional interface with modern visuals, clear typography, and strong visual hierarchy to reinforce credibility.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="case-study__timeline-item">
+
+                <div class="case-study__timeline-number">
+                    04
+                </div>
+
+                <div class="case-study__timeline-content">
+
+                    <h3>
+                        Interactive Prototype
+                    </h3>
+
+                    <p>
+                        Created interactive user flows to validate service navigation, shipment tracking, and contact interactions before development.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="case-study__timeline-item">
+
+                <div class="case-study__timeline-number">
+                    05
+                </div>
+
+                <div class="case-study__timeline-content">
+
+                    <h3>
+                        User-Focused Logistics Experience
+                    </h3>
+
+                    <p>
+                        Refined the complete user journey to help visitors understand services, track shipments, and contact the company through a simple and intuitive experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </div>
+
+    </section>
+
+
+    <!-- Design Approach -->
+
+    <!-- =========================
+     Design Approach 
+========================= -->
+
+
+<section class="case-study__section case-study__design-approach">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                Design Approach
+            </span>
+
+            <h2 class="section-title">
+                Design Approach
+            </h2>
+
+            <p>
+                The interface follows a clean, structured, and modern corporate design language.
+                Every section is intentionally arranged to guide visitors through the company's services while keeping important actions easily accessible.
+            </p>
+
+        </div>
+
+        <div class="case-study__goals-grid">
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-layout-4-line"></i>
+
+                <h3>Clean Visual Hierarchy</h3>
+
+                <p>
+                    Clean visual hierarchy
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-layout-grid-line"></i>
+
+                <h3>Spacious Layouts</h3>
+
+                <p>
+                    Spacious layouts
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-font-size-2"></i>
+
+                <h3>Professional Typography</h3>
+
+                <p>
+                    Professional typography
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-route-line"></i>
+
+                <h3>Easy Navigation</h3>
+
+                <p>
+                    Easy navigation
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-service-line"></i>
+
+                <h3>Service-Focused Content</h3>
+
+                <p>
+                    Service-focused content
+                </p>
+
+            </div>
+
+            <div class="case-study__goal-card">
+
+                <i class="ri-cursor-line"></i>
+
+                <h3>Clear Call-to-Action</h3>
+
+                <p>
+                    Clear Call-to-Action buttons
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- Color Strategy -->
+
+    <!-- =========================
+     Color Strategy
+========================= -->
+
+<section class="case-study__section case-study__colors">
+
+    <div class="container">
+
+        <div class="case-study__content">
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Color Strategy
+                </span>
+
+                <h2 class="section-title">
+                    Trust Through Color
+                </h2>
+
+                <p>
+                    The interface primarily uses blue, white, and dark navy to reflect the company's professional identity.
+                </p>
+
+                <p>
+                    Blue represents trust, reliability, global connectivity, professionalism, and security. White space improves readability, while dark backgrounds in hero sections create strong visual contrast and highlight important messaging.
+                </p>
+
+            </div>
+
+            <div class="case-study__color-palette">
+
+                <div class="case-study__color-card">
+
+                    <div
+                        class="case-study__color-preview"
+                        style="background:#106FEE;">
+                    </div>
+
+                    <h3>Primary Blue</h3>
+
+                    <span>#106FEE</span>
+
+                </div>
+
+                <div class="case-study__color-card">
+
+                    <div
+                        class="case-study__color-preview"
+                        style="background:#FFFFFF; border:1px solid rgba(0,0,0,.08);">
+                    </div>
+
+                    <h3>White</h3>
+
+                    <span>#FFFFFF</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- =========================
+     Homepage
+========================= -->
+
+<section class="case-study__section case-study__showcase">
+
+    <div class="container">
+
+        <div class="case-study__content">
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Homepage
+                </span>
+
+                <h2>
+                    Homepage Experience
+                </h2>
+
+                <p>
+                    The homepage introduces the company and immediately communicates its expertise in shipping and transportation.
+                </p>
+
+                <p>
+                    The homepage includes the company introduction, core shipping services, about section, shipment tracking system, industry experience highlights, latest blogs, and a contact section.
+                </p>
+
+                <p>
+                    Important actions remain visible without requiring users to search through multiple pages, creating a clear and efficient browsing experience.
+                </p>
+
+            </div>
+
+            <div class="case-study__image">
+
+                <img src="assets/images/project-case-study/shipping/home.webp"
+                    alt="Homepage Experience"
+                    loading="lazy">
+
+                <button class="case-study__expand" aria-label="View Full Size">
+
+                    <i class="ri-fullscreen-line"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Services Showcase -->
+
+    <!-- =========================
+    Services Showcase
+========================= -->
+
+<section class="case-study__section case-study__showcase">
+
+    <div class="container">
+
+        <div class="case-study__content case-study__content--reverse">
+
+            <div class="case-study__image">
+
+                <img src="assets/images/project-case-study/shipping/services.webp"
+                    alt="Services Section"
+                    loading="lazy">
+
+                <button class="case-study__expand" aria-label="View Full Size">
+
+                    <i class="ri-fullscreen-line"></i>
+
+                </button>
+
+            </div>
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Services
+                </span>
+
+                <h2 class="section-title">
+                    Services Section
+                </h2>
+
+                <p>
+                    The services section presents the company's transportation solutions in a structured and easy-to-understand layout.
+                </p>
+
+                <p>
+                    Visitors can explore Maritime Shipping, Air Freight, Land Transportation, Pipeline Transport, and Courier Services through dedicated service pages.
+                </p>
+
+                <p>
+                    This allows potential customers to understand the company's capabilities before making an enquiry.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- Service Details Showcase -->
+
+    <!-- =========================
+     Service Details Showcase
+========================= -->
+
+
+<section class="case-study__section case-study__showcase">
+
+    <div class="container">
+
+        <div class="case-study__content case-study__content--reverse">
+
+            <div class="case-study__image">
+
+                <img src="assets/images/project-case-study/shipping/service details.webp"
+                    alt="Service Details"
+                    loading="lazy">
+
+                <button class="case-study__expand" aria-label="View Full Size">
+
+                    <i class="ri-fullscreen-line"></i>
+
+                </button>
+
+            </div>
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Services
+                </span>
+
+                <h2 class="section-title">
+                    Service Details
+                </h2>
+
+                <p>
+                    Each service page explains the transportation method in greater detail through a clean and structured layout.
+                </p>
+
+                <p>
+                    Visitors can learn about service benefits, global reach, cost-effectiveness, operational efficiency, and common industry applications.
+                </p>
+
+                <p>
+                    Large visuals combined with concise content help users understand complex logistics services without feeling overwhelmed.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- Shipment Tracking Showcase -->
+
+    <!-- =========================
+     Shipment Tracking Showcase
+========================= -->
+
+<section class="case-study__section case-study__showcase">
+
+    <div class="container">
+
+        <div class="case-study__content">
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Tracking
+                </span>
+
+                <h2 class="section-title">
+                    Shipment Tracking Experience
+                </h2>
+
+                <p>
+                    One of the primary goals of the website is helping customers track shipments quickly and efficiently.
+                </p>
+
+                <p>
+                    Users can search shipments using either a Container / Bill of Lading Number or a Booking Number directly from the tracking section.
+                </p>
+
+                <p>
+                    Providing tracking on the website reduces friction and makes one of the company's most important services immediately accessible.
+                </p>
+
+            </div>
+
+            <div class="case-study__image">
+
+                <img src="assets/images/project-case-study/shipping/tracking.webp"
+                    alt="Shipment Tracking"
+                    loading="lazy">
+
+                <button class="case-study__expand" aria-label="View Full Size">
+
+                    <i class="ri-fullscreen-line"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- Blog Section Showcase -->
+
+
+    <!-- =========================
+      Blog Section Showcase
+========================= -->
+
+
+<section class="case-study__section case-study__showcase">
+
+    <div class="container">
+
+        <div class="case-study__content">
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Blogs
+                </span>
+
+                <h2 class="section-title">
+                    Blog Section
+                </h2>
+
+                <p>
+                    The website includes a dedicated blog page where visitors can stay updated with the latest shipping news, logistics insights, and industry trends.
+                </p>
+
+                <p>
+                    Users can browse the latest articles, search blogs using keywords, explore multiple blog categories, and discover industry updates through a clean, organized layout.
+                </p>
+
+                <p>
+                    The blog listing is designed to make content easy to scan while encouraging visitors to explore relevant articles.
+                </p>
+
+            </div>
+
+            <div class="case-study__image">
+
+                <img src="assets/images/project-case-study/shipping/blogs.webp"
+                    alt="Blog Section"
+                    loading="lazy">
+
+                <button class="case-study__expand" aria-label="View Full Size">
+
+                    <i class="ri-fullscreen-line"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- Blog Details Showcase -->
+
+
+    <!-- =========================
+      Blog Details Showcase
+========================= -->
+
+
+
+<section class="case-study__section case-study__showcase">
+
+    <div class="container">
+
+        <div class="case-study__content case-study__content--reverse">
+
+            <div class="case-study__image">
+
+                <img src="assets/images/project-case-study/shipping/blog details.webp"
+                    alt="Blog Details"
+                    loading="lazy">
+
+                <button class="case-study__expand" aria-label="View Full Size">
+
+                    <i class="ri-fullscreen-line"></i>
+
+                </button>
+
+            </div>
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Blog
+                </span>
+
+                <h2 class="section-title">
+                    Blog Details
+                </h2>
+
+                <p>
+                    Each blog opens on a dedicated page designed for comfortable reading and better content engagement.
+                </p>
+
+                <p>
+                    The blog details page includes complete article content, a featured image, author information, social sharing options, and navigation to related articles.
+                </p>
+
+                <p>
+                    Providing a dedicated reading experience helps visitors focus on the content while reinforcing the company's expertise in the shipping and logistics industry.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- Contact Showcase -->
+
+
+    <!-- =========================
+      Contact Showcase
+========================= -->
+
+
+<section class="case-study__section case-study__showcase">
+
+    <div class="container">
+
+        <div class="case-study__content">
+
+            <div class="case-study__text">
+
+                <span class="section-tag">
+                    Contact
+                </span>
+
+                <h2 class="section-title">
+                    Contact Experience
+                </h2>
+
+                <p>
+                    The contact section is designed to make enquiries simple and accessible for potential customers.
+                </p>
+
+                <p>
+                    Visitors can enter their name, phone number, message, and contact the company directly through a clean and easy-to-complete form.
+                </p>
+
+                <p>
+                    Keeping the form short encourages more enquiries while reducing form abandonment and improving conversions.
+                </p>
+
+            </div>
+
+            <div class="case-study__image">
+
+                <img src="assets/images/project-case-study/shipping/contact.webp"
+                    alt="Contact Experience"
+                    loading="lazy">
+
+                <button class="case-study__expand" aria-label="View Full Size">
+
+                    <i class="ri-fullscreen-line"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- User Experience Goals
+
+
+          =========================
+     User Experience Goals
+========================= -->
+
+    <!-- <section class="case-study__section case-study__ux-goals">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+
+                            UX Goals
+
+                        </span>
+
+                        <h2 class="section-title">
+
+                            User Experience Goals
+
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__goals-grid">
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-service-line"></i>
+
+                            <h3>Service Discovery</h3>
+
+                            <p>Understand available services quickly.</p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>02</h3>
+
+                            <p>
+                                View consultation pricing before booking.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>03</h3>
+
+                            <p>
+                                Build trust through patient testimonials.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>04</h3>
+
+                            <p>
+                                Find important actions without searching.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>05</h3>
+
+                            <p>
+                                Complete the booking process with minimal effort.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>06</h3>
+
+                            <p>
+                                Receive instant booking confirmation.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>  -->
+
+
+    <!-- Conversion Strategy -->
+
+    <!-- =========================
+     Conversion Strategy
+========================= -->
+
+
+<section class="case-study__section case-study__challenge">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                Strategy
+            </span>
+
+            <h2 class="section-title">
+                Conversion Strategy
+            </h2>
+
+        </div>
+
+        <div class="case-study__content">
+
+            <div class="case-study__text">
+
+                <p>
+
+                    The website is designed to guide visitors toward meaningful business actions without unnecessary distractions.
+
+                </p>
+
+                <p>
+
+                    Shipment tracking is placed directly on the homepage for quick access, while dedicated service pages provide detailed information that builds confidence before enquiry.
+
+                </p>
+
+                <p>
+
+                    Industry blogs establish credibility, and a simple contact form encourages potential clients to connect with the company after understanding its services.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- Design Highlights -->
+
+    <!-- =========================
+     Design Highlights
+========================= -->
+
+<section class="case-study__section case-study__highlights">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                Highlights
+            </span>
+
+            <h2 class="section-title">
+                Design Highlights
+            </h2>
+
+        </div>
+
+        <div class="case-study__highlights-grid">
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-building-line"></i>
+
+                <h3>
+                    Corporate Interface
+                </h3>
+
+                <p>
+                    Modern corporate interface.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-layout-4-line"></i>
+
+                <h3>
+                    Visual Hierarchy
+                </h3>
+
+                <p>
+                    Professional visual hierarchy.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-road-map-line"></i>
+
+                <h3>
+                    Service Pages
+                </h3>
+
+                <p>
+                    Dedicated service pages.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-map-pin-time-line"></i>
+
+                <h3>
+                    Shipment Tracking
+                </h3>
+
+                <p>
+                    Integrated shipment tracking.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-article-line"></i>
+
+                <h3>
+                    Blog Section
+                </h3>
+
+                <p>
+                    Informative blog section.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-customer-service-2-line"></i>
+
+                <h3>
+                    Enquiry Form
+                </h3>
+
+                <p>
+                    Simple enquiry form.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-route-line"></i>
+
+                <h3>
+                    Navigation
+                </h3>
+
+                <p>
+                    Clean navigation.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-responsive-line"></i>
+
+                <h3>
+                    Responsive Layout
+                </h3>
+
+                <p>
+                    Responsive page structure.
+                </p>
+
+            </div>
+
+            <div class="case-study__highlight-card">
+
+                <i class="ri-file-list-3-line"></i>
+
+                <h3>
+                    Content Structure
+                </h3>
+
+                <p>
+                    Service-focused content organization.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Final Outcome -->
+
+    <!-- =========================
+     Final Outcome
+========================= -->
+
+<section class="case-study__section case-study__outcome">
+
+    <div class="container">
+
+        <div class="case-study__section-header">
+
+            <span class="section-tag">
+                Outcome
+            </span>
+
+            <h2 class="section-title">
+                Final Outcome
+            </h2>
+
+        </div>
+
+        <div class="case-study__content">
+
+            <div class="case-study__text case-study__outcome-card">
+
+                <p>
+
+                    The final design delivers a clean, professional, and user-friendly shipping website that effectively communicates the company's expertise while making important business functions easy to access.
+
+                </p>
+
+                <p>
+
+                    By combining structured service information, simplified shipment tracking, dedicated service pages, educational blogs, and an accessible contact experience, the interface builds trust and creates a smooth journey from learning about the company to making an enquiry.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- Next Project -->
+
+    <!-- =========================
+     Next Project
+========================= -->
+
+<section class="case-study__section case-study__next-project">
+
+    <div class="container">
+
+        <div class="case-study__next-card">
+
+            <span class="section-tag">
+                Next Project
+            </span>
+
+            <h2>
+                Healthy & Delicious Recipes
+            </h2>
+
+            <p>
+
+                Website Design
+
+                <br>
+
+                Healthy & Delicious Recipes is a modern recipe website UI/UX design created to provide a clean and enjoyable cooking experience.
+
+            </p>
+
+            <a href="project-recipe-website.html" class="btn btn--primary">
+
+                View Case Study
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
+
+
+    <!-- Footer (Same as Homepage) -->
+
+
+    <!-- =========================
+     Image Lightbox
+========================= -->
+
+    <div class="case-study__lightbox" role="dialog" aria-modal="true" aria-hidden="true" hidden>
+
+        <button class="case-study__lightbox-close" aria-label="Close">
+
+            <i class="ri-close-line"></i>
+
+        </button>
+
+        <button class="case-study__lightbox-prev" aria-label="Previous">
+
+            <i class="ri-arrow-left-s-line"></i>
+
+        </button>
+
+        <div class="case-study__lightbox-content">
+
+            <img src="" alt="" class="case-study__lightbox-image">
+
+            <p class="case-study__lightbox-caption"></p>
+
+            <span class="case-study__lightbox-counter"></span>
+
+        </div>
+
+        <button class="case-study__lightbox-next" aria-label="Next">
+
+            <i class="ri-arrow-right-s-line"></i>
+
+        </button>
+
+    </div>
+
+
+
+
+    <!-- ==========================================================
+    Footer
+========================================================== -->
+
+
+
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer__top">
+
+                <a href="#project_hero" class="footer__logo">
+                    Vishal N<span>.</span>
+                </a>
+
+                <nav class="footer__nav">
+
+                    <a href="index.html#hero">Home</a>
+                    <a href="index.html#projects">Projects</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#services">Services</a>
+                    <a href="index.html#skills">Skills</a>
+                    <a href="index.html#contact">Contact</a>
+
+                </nav>
+
+                <div class="footer__social">
+
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nalawadevishal2001@gmail.com" target="_blank"
+                        rel="noopener noreferrer" aria-label="Email">
+                        <i class="ri-mail-line"></i>
+                    </a>
+
+                    <a href="https://wa.me/917030557456" target="_blank" rel="noopener noreferrer"
+                        aria-label="WhatsApp">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+
+                    <a href="https://github.com/vish70" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="ri-github-line"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer__bottom">
+
+                <a href="#project_hero" class="footer__logo">
+
+                    <img src="favicon.ico" alt="Vishal Nalawade Logo" class="footer__logo">
+                </a>
+
+                <p>
+                    © 2026 Vishal Nalawade. All rights reserved.
+                </p>
+
+                <p>
+                    Designed & Developed by Vishal Nalawade.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <!-- ==========================================================
+    Back To Top
+========================================================== -->
+
+    <button class="scroll-top" id="scroll-top" aria-label="Back to Top">
+
+        <i class="ri-arrow-up-line"></i>
+
+    </button>
+
+
+
+
+
+    <!-- Scroll To Top -->
+
+
+    <!-- GSAP CDN -->
+
+    <!-- ==========================================================
+    JavaScript
+========================================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js">
+    </script>
+
+    <!-- ScrollTrigger CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js">
+    </script>
+
+
+    <!-- Global Script -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Homepage GSAP -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- Case Study Script -->
+    <script src="assets/js/case-study.js"></script>
+
+    <!-- Case Study GSAP -->
+    <script src="assets/js/case-study-gsap.js"></script>
+
+    <!-- Navigation Router -->
+    <script src="js/navigation-router.js"></script>
+
+    <!-- Page Router -->
+    <script src="js/page-router.js"></script>
+
+
+</body>
+
+</html>

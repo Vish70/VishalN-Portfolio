@@ -1,0 +1,2078 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ========================================================= -->
+    <!-- Basic Meta -->
+    <!-- ========================================================= -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Vishal Nalawade | UI/UX Designer & Website Designer
+    </title>
+
+    <meta name="description"
+        content="Portfolio of Vishal Nalawade, a UI/UX Designer specializing in modern websites, mobile app interfaces, interactive prototypes and digital experiences.">
+
+    <meta name="keywords"
+        content="UI UX Designer, Website Designer, Figma, Portfolio, Mobile App Design, Responsive Website">
+
+    <meta name="author" content="Vishal Nalawade">
+
+    <meta name="theme-color" content="#FF9A30">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- ========================================================= -->
+    <!-- Open Graph -->
+    <!-- ========================================================= -->
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="Vishal Nalawade | UI/UX Designer">
+
+    <meta property="og:description" content="Modern UI/UX Designer Portfolio">
+
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <meta property="og:url" content="https://vish70.github.io/VishalN-Portfolio/">
+
+    <!-- ========================================================= -->
+    <!-- Favicon -->
+    <!-- ========================================================= -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <link rel="icon" href="favicon.ico?v=3" type="image/x-icon">
+
+
+    <!-- ========================================================= -->
+    <!-- Fonts -->
+    <!-- ========================================================= -->
+
+    <!-- Local General Sans -->
+
+    <link rel="preload" href="assets/fonts/GeneralSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- ========================================================= -->
+    <!-- Remix Icons -->
+    <!-- ========================================================= -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Case Study CSS -->
+    <link rel="stylesheet" href="css/case-study.css">
+
+</head>
+
+<body>
+
+    <!-- Preloader (Same as Homepage) -->
+
+
+    <!-- Cursor (Same as Homepage) -->
+
+
+    <!-- Scroll Progress (Same as Homepage) -->
+
+
+    <!-- Header (Same as Homepage) -->
+
+
+    <!-- ==========================================================
+        Custom Cursor
+    =========================================================== -->
+    <div class="cursor">
+        <div class="cursor__dot"></div>
+        <div class="cursor__outline"></div>
+    </div>
+
+    <!-- ==========================================================
+        Scroll Progress
+    =========================================================== -->
+    <div class="scroll-progress">
+        <span class="scroll-progress__bar"></span>
+    </div>
+
+    <!-- ==========================================================
+        Page Preloader
+    =========================================================== -->
+    <div class="preloader" id="preloader">
+
+        <div class="preloader__inner">
+
+            <div class="preloader__logo">
+                <span><img src="favicon.ico" alt="logo_"></span>
+            </div>
+
+            <div class="preloader__loading">
+                <span class="preloader__line"></span>
+            </div>
+
+            <p class="preloader__text">
+                Loading Portfolio...
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================================================
+        Site Wrapper
+    =========================================================== -->
+    <div class="site-wrapper">
+
+        <!-- Header Starts Here (Part 3) -->
+
+        <!-- ==========================================================
+            Header
+        =========================================================== -->
+        <header class="header" id="header">
+
+            <div class="container">
+
+                <div class="header__wrapper">
+
+                    <!-- Logo -->
+                    <a href="#project_hero" class="logo" aria-label="Vishal Nalawade Portfolio">
+                        <!-- <span class="logo__text">VN.</span> -->
+                        <span><img src="favicon.ico" alt="logo_"></span>
+
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <nav class="nav" aria-label="Primary Navigation">
+
+                        <ul class="nav__list">
+
+                            <li class="nav__item">
+                                <a href="index.html#hero" class="nav__link">
+                                    Home
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#projects" class="nav__link">
+                                    Projects
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#about" class="nav__link">
+                                    About
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#services" class="nav__link">
+                                    Services
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#skills" class="nav__link">
+                                    Skills
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#contact" class="nav__link">
+                                    Contact
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                    <!-- Right Actions -->
+                    <div class="header__actions">
+
+                        <a href="index.html#contact" class="btn btn--primary">
+                            Let's Talk
+                        </a>
+
+                        <button class="menu-toggle" id="menu-toggle" aria-label="Open Menu" aria-expanded="false"
+                            aria-controls="mobile-menu">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- ==========================================================
+            Mobile Navigation
+        =========================================================== -->
+
+        <aside class="mobile-menu" id="mobile-menu" aria-hidden="true">
+
+            <div class="mobile-menu__header">
+
+                <a href="#project_hero" class="logo">
+                    <span class="logo__text">VN.</span>
+                </a>
+
+                <button class="mobile-menu__close" id="menu-close" aria-label="Close Menu">
+
+                    <i class="ri-close-line"></i>
+
+                </button>
+
+            </div>
+
+            <nav class="mobile-nav">
+
+                <ul class="mobile-nav__list">
+
+                    <li>
+                        <a href="index.html#hero">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#projects">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#about">About</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#services">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#skills">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="mobile-menu__footer">
+
+                <a href="index.html#contact" class="btn btn--primary btn--full">
+                    Let's Talk
+                </a>
+
+            </div>
+
+        </aside>
+
+
+
+        <main class="case-study">
+
+            <!-- Breadcrumb -->
+
+
+            <!-- Hero -->
+
+            <!-- =========================
+     Breadcrumb
+========================= -->
+
+            <section class="case-study__breadcrumb" id="project_hero">
+                <div class="container">
+
+                    <nav class="breadcrumb" aria-label="Breadcrumb">
+
+                        <a href="index.html">Home</a>
+
+                        <span>/</span>
+
+                        <a href="index.html#projects">Projects</a>
+
+                        <span>/</span>
+
+                        <span aria-current="page">Dental Clinic Website</span>
+
+                    </nav>
+
+                </div>
+            </section>
+
+
+            <!-- =========================
+     Hero
+========================= -->
+
+            <section class="case-study__hero">
+
+                <div class="container">
+
+                    <div class="case-study__hero-content">
+
+                        <span class="case-study__badge">
+                            Healthcare Website
+                        </span>
+
+                        <h1 class="case-study__title">
+                            Dental Clinic Website
+                        </h1>
+
+                        <p class="case-study__description">
+
+                            A clean, trustworthy and user-focused dental clinic website
+                            designed to simplify appointment booking, build patient
+                            confidence and showcase dental services through a modern
+                            responsive experience.
+
+                        </p>
+
+                        <div class="case-study__actions">
+
+                            <a href="#overview" class="btn btn--primary">
+
+                                Explore Case Study
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="case-study__hero-image">
+
+                        <img src="assets/images/project-case-study/dental/hero.webp"
+                            alt="Dental Clinic Website Homepage" loading="eager">
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- Project Overview -->
+
+            <section id="overview" class="case-study__section case-study__overview">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Overview
+                        </span>
+
+                        <h2 class="section-title">
+                            Project Overview
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__overview-content">
+
+                        <p>
+
+                            This project is a modern and user-friendly dental clinic website
+                            designed to make booking an appointment as simple and stress-free
+                            as possible. The primary goal was to remove every possible doubt
+                            a patient might have before scheduling a visit by presenting clear
+                            information, transparent pricing, trusted reviews, and an easy
+                            appointment booking process.
+                            Rather than focusing only on visual appeal, the design prioritizes
+                            user confidence and smooth decision-making from the moment a visitor
+                            lands on the website.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Project Information -->
+
+            <!-- =========================
+     Project Information
+========================= -->
+
+            <section class="case-study__section case-study__project-info">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Information
+                        </span>
+
+                        <h2 class="section-title">
+                            Project Information
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__info-grid">
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-user-star-line"></i>
+
+                            <span>Project Role</span>
+
+                            <h3>UI/UX Design</h3>
+
+                        </div>
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-layout-grid-line"></i>
+
+                            <span>Category</span>
+
+                            <h3>Healthcare Website</h3>
+
+                        </div>
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-pen-nib-line"></i>
+
+                            <span>Tools</span>
+
+                            <h3>Figma</h3>
+
+                        </div>
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-computer-line"></i>
+
+                            <span>Platform</span>
+
+                            <h3>Responsive Website</h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Challenge -->
+
+            <!-- =========================
+     Challenge
+========================= -->
+
+            <section class="case-study__section case-study__challenge">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Challenge
+                        </span>
+
+                        <h2 class="section-title">
+                            Design Challenge
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__content">
+
+                        <div class="case-study__text">
+                            <p>
+
+                                <!--  CHALLENGE CONTENT  -->
+
+
+                                Many dental clinic websites create uncertainty for first-time visitors. Users often
+                                leave
+                                because they cannot quickly find treatment prices, doctor information, patient reviews,
+                                or a
+                                clear booking process.
+
+                                The challenge was to design a website that:
+
+                                Builds trust immediately.
+                                Makes appointment booking easy.
+                                Answers common patient questions before they need to ask.
+                                Reduces hesitation during the booking process.
+                                Maintains a clean and professional healthcare experience.
+
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Design Goals -->
+
+            <!-- =========================
+     Design Goals
+========================= -->
+
+            <section class="case-study__section case-study__design-goals">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            UX Goals
+                        </span>
+
+                        <h2 class="section-title">
+                            User Experience Design Goals
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__goals-grid">
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-service-line"></i>
+
+                            <h3>Service Discovery</h3>
+
+                            <p>
+                                Understand available services quickly.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-price-tag-3-line"></i>
+
+                            <h3>
+                                Transparent Pricing
+                            </h3>
+
+                            <p>
+                                View consultation pricing before booking.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-shield-check-line"></i>
+
+                            <h3>
+                                Build Trust
+                            </h3>
+
+                            <p>
+                                Build trust through patient testimonials.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-calendar-check-line"></i>
+
+                            <h3>
+                                Easy Booking
+                            </h3>
+
+                            <p>
+                                Complete the booking process with minimal effort.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-checkbox-circle-line"></i>
+
+                            <h3>Instant Confirmation</h3>
+
+                            <p>
+                                Receive instant booking confirmation.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Design Process -->
+
+            <!-- =========================
+     Design Process
+========================= -->
+
+            <section class="case-study__section case-study__process">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Process
+                        </span>
+
+                        <h2 class="section-title">
+                            Design Process
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__timeline">
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+
+                                01
+
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+
+                                    Research & Requirement Understanding
+
+                                </h3>
+
+                                <p>
+
+                                    Understanding user needs, clinic requirements and patient expectations before
+                                    designing the interface.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+
+                                02
+
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+
+                                    Information Architecture
+
+                                </h3>
+
+                                <p>
+
+                                    Organized the website structure to ensure users could easily find services, pricing
+                                    and booking options.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+
+                                03
+
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+
+                                    UI Design
+
+                                </h3>
+
+                                <p>
+
+                                    Created a clean, trustworthy interface with a healthcare-focused visual language.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+
+                                04
+
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+
+                                    Interactive Prototype
+
+                                </h3>
+
+                                <p>
+
+                                    Built clickable flows to validate navigation and appointment interactions.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+
+                                05
+
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+
+                                    User-Focused Booking Experience
+
+                                </h3>
+
+                                <p>
+
+                                    Simplified the booking journey to reduce hesitation and encourage appointment
+                                    completion.
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+    </div>
+
+    </section>
+
+
+    <!-- Design Approach -->
+
+    <!-- =========================
+     Design Approach 
+========================= -->
+
+
+    <section class="case-study__section case-study__design-approach">
+
+        <div class="container">
+
+            <div class="case-study__section-header">
+
+                <span class="section-tag">
+                    Design Approach
+                </span>
+
+                <h2 class="section-title">
+                    Design Approach
+                </h2>
+
+                <p>
+                    The entire interface follows a clean, minimal, and modern design language.
+                    Every section is intentionally arranged to guide visitors naturally toward booking an appointment
+                    without overwhelming them with unnecessary content.
+                </p>
+
+            </div>
+
+            <div class="case-study__goals-grid">
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-layout-4-line"></i>
+
+                    <h3>Clear Visual Hierarchy</h3>
+
+                    <p>
+                        Clear visual hierarchy
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-layout-grid-line"></i>
+
+                    <h3>Comfortable Spacing</h3>
+
+                    <p>
+                        Comfortable spacing
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-route-line"></i>
+
+                    <h3>Simple Navigation</h3>
+
+                    <p>
+                        Simple navigation
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-file-text-line"></i>
+
+                    <h3>Easy Readability</h3>
+
+                    <p>
+                        Easy readability
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-cursor-line"></i>
+
+                    <h3>Accessible CTA</h3>
+
+                    <p>
+                        Accessible call-to-action buttons
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-compass-3-line"></i>
+
+                    <h3>Smooth Browsing</h3>
+
+                    <p>
+                        Smooth browsing experience
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Color Strategy -->
+
+    <!-- =========================
+     Color Strategy
+========================= -->
+
+    <section class="case-study__section case-study__colors">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+
+                        Color Strategy
+
+                    </span>
+
+                    <h2 class="section-title">
+
+                        Blue Builds Trust
+
+                    </h2>
+
+                    <p>
+
+                        The interface uses blue as the primary color, a common choice
+                        in the healthcare industry because it represents Trust,
+                        Professionalism, Cleanliness, Safety and Reliability.
+
+                    </p>
+
+                    <p>
+
+                        Soft white backgrounds combined with subtle illustrations
+                        create a welcoming and hygienic appearance, helping users
+                        feel comfortable throughout the experience.
+
+                    </p>
+
+                </div>
+
+                <div class="case-study__color-palette">
+
+                    <!-- <div class="case-study__color-card">
+
+                                <span></span>
+
+                                <h4>Primary Blue</h4>
+
+                            </div> -->
+
+                    <div class="case-study__color-card">
+
+                        <div class="case-study__color-preview" style="background:#2E7DBD;">
+                        </div>
+
+                        <h3>Primary Blue</h3>
+
+                        <span>#2E7DBD</span>
+
+                    </div>
+
+                    <div class="case-study__color-card">
+
+                        <div class="case-study__color-preview" style="background:#ffff;">
+                        </div>
+
+                        <h3>White</h3>
+
+                        <span>#FFFF</span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+     Homepage
+========================= -->
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Homepage
+                    </span>
+
+                    <h2>
+                        Homepage Experience
+                    </h2>
+
+                    <p>
+
+                        The homepage is structured to answer the most important
+                        patient questions in a logical order.
+
+                    </p>
+                    <h3>
+
+                        Hero Section
+
+                    </h3>
+                    <p>
+
+                        The first screen immediately communicates clinic identity,
+                        main value proposition and the primary call-to-action.
+
+                    </p>
+
+                    <p>
+
+                        Instead of making visitors search for the booking option,
+                        a Book Appointment button is placed both in the navigation
+                        bar and the hero section.
+
+                    </p>
+
+
+                </div>
+
+
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/dental/homepage.webp" alt="Homepage" loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                        <!-- <span>View Full Size</span> -->
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Services Showcase -->
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content case-study__content--reverse">
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/dental/services.webp" alt="Services" loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                        <!-- <span>View Full Size</span> -->
+
+                    </button>
+
+                </div>
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+
+                        Services
+
+                    </span>
+
+                    <h2 class="section-title">
+
+                        Services Section
+
+                    </h2>
+
+                    <p>
+
+                        Patients often want to understand available treatments
+                        before making a decision.
+
+                    </p>
+
+                    <p>
+
+                        The services section introduces treatment categories,
+                        treatment images, doctor information and consultation fee.
+
+                    </p>
+
+                    <p>
+
+                        Displaying the consultation price early helps reduce
+                        uncertainty and builds pricing transparency.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About Showcase -->
+    <!-- =========================
+     About Showcase
+========================= -->
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">About</span>
+
+                    <h2 class="section-title">
+                        About Section
+                    </h2>
+
+                    <p>
+                        The About section briefly explains the clinic's approach,
+                        highlighting patient comfort, modern equipment and quality
+                        care without overwhelming visitors with excessive information.
+                    </p>
+
+                </div>
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/dental/about.webp" alt="About Section" loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                        <!-- <span>View Full Size</span> -->
+
+                    </button>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Doctors Showcase -->
+
+    <!-- =========================
+     Doctors Showcase
+========================= -->
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content case-study__content--reverse">
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/dental/doctors.webp" alt="Doctors" loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                        <!-- <span>View Full Size</span> -->
+
+                    </button>
+
+                </div>
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">Doctors</span>
+
+                    <h2 class="section-title">
+                        Doctors Section
+                    </h2>
+
+                    <p>
+                        Introducing the medical team increases credibility and
+                        gives visitors confidence in the professionals who
+                        will provide treatment.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Blogs Showcase -->
+
+
+    <!-- =========================
+     Blog Showcase
+========================= -->
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">Blog</span>
+
+                    <h2 class="section-title">
+                        Educational Blog Section
+                    </h2>
+
+                    <p>
+                        Helpful dental articles encourage users to learn more
+                        about oral health while positioning the clinic as
+                        knowledgeable and trustworthy.
+                    </p>
+
+                    <p>
+                        Since this is a multi-page website concept,
+                        the Read More button allows users to explore
+                        detailed blog pages later.
+                    </p>
+
+                </div>
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/dental/blogs.webp" alt="Dental Blog" loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                        <!-- <span>View Full Size</span> -->
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+     Newsletter
+========================= -->
+
+    <section class="case-study__section case-study__newsletter">
+
+        <div class="container">
+
+            <div class="case-study__content case-study__content--reverse">
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/dental/newsletter.webp" alt="Newsletter" loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                        <!-- <span>View Full Size</span> -->
+
+                    </button>
+
+                </div>
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Newsletter
+                    </span>
+
+                    <h2 class="section-title">
+                        Newsletter Subscription
+                    </h2>
+
+                    <p>
+
+                        Visitors interested in dental tips and updates can
+                        subscribe using a simple email form.
+
+                    </p>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Testimonials Showcase -->
+
+    <!-- =========================
+     Testimonials Showcase
+========================= -->
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content case-study__content--reverse">
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/dental/testimonials.webp" alt="Testimonials"
+                        loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                        <!-- <span>View Full Size</span> -->
+
+                    </button>
+
+                </div>
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Testimonials
+                    </span>
+
+                    <h2 class="section-title">
+                        Patient Testimonials
+                    </h2>
+
+                    <p>
+                        Trust plays a major role before booking a healthcare
+                        appointment.
+                    </p>
+
+                    <p>
+                        The testimonial section showcases positive patient
+                        experiences, helping reduce hesitation and
+                        strengthening confidence in the clinic.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Appointment Showcase -->
+
+
+    <!-- =========================
+     Appointment Showcase
+========================= -->
+
+    <section class="case-study__section case-study__appointment">
+
+        <div class="container">
+            <div class="case-study__section-header">
+
+                <span class="section-tag">
+                    Appointment
+                </span>
+
+                <h2 class="section-title">
+                    Appointment Booking Experience
+                </h2>
+
+                <p>
+                    A simple and user-friendly booking flow designed to reduce friction,
+                    build confidence and help patients schedule appointments quickly.
+                </p>
+
+            </div>
+
+            <div class="case-study__appointment-layout">
+
+                <div class="case-study__appointment-image">
+
+                    <img src="assets/images/project-case-study/dental/booking.webp" alt="Appointment Booking"
+                        loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+
+                        <i class="ri-fullscreen-line"></i>
+
+                        <!-- <span>View Full Size</span> -->
+
+                    </button>
+
+                </div>
+
+                <div class="case-study__appointment-content">
+
+                    <h3>
+
+                        Booking Flow
+
+                    </h3>
+
+                    <p>
+
+                        The booking form is designed to make scheduling
+                        straightforward while minimizing confusion.
+
+                    </p>
+
+                    <div class="case-study__booking-flow">
+
+                        <div class="case-study__booking-step">
+
+                            <span>01</span>
+
+                            <p>
+                                Enter Personal Details
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__booking-step">
+
+                            <span>02</span>
+
+                            <p>
+                                Select Dental Service
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__booking-step">
+
+                            <span>03</span>
+
+                            <p>
+                                Choose Appointment Date
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__booking-step">
+
+                            <span>04</span>
+
+                            <p>
+                                Doctor Availability Check
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__booking-step">
+
+                            <span>05</span>
+
+                            <p>
+                                Consultation Fee Display
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__booking-step">
+
+                            <span>06</span>
+
+                            <p>
+                                Doctor Assignment
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__booking-step">
+
+                            <span>07</span>
+
+                            <p>
+                                Booking Confirmation
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__booking-step">
+
+                            <span>08</span>
+
+                            <p>
+                                Confirmation Email
+                            </p>
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- User Experience Goals
+
+
+          =========================
+     User Experience Goals
+========================= -->
+
+    <!-- <section class="case-study__section case-study__ux-goals">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+
+                            UX Goals
+
+                        </span>
+
+                        <h2 class="section-title">
+
+                            User Experience Goals
+
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__goals-grid">
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-service-line"></i>
+
+                            <h3>Service Discovery</h3>
+
+                            <p>Understand available services quickly.</p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>02</h3>
+
+                            <p>
+                                View consultation pricing before booking.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>03</h3>
+
+                            <p>
+                                Build trust through patient testimonials.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>04</h3>
+
+                            <p>
+                                Find important actions without searching.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>05</h3>
+
+                            <p>
+                                Complete the booking process with minimal effort.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>06</h3>
+
+                            <p>
+                                Receive instant booking confirmation.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>  -->
+
+
+    <!-- Design Highlights -->
+
+    <!-- =========================
+     Design Highlights
+========================= -->
+
+    <section class="case-study__section case-study__highlights">
+
+        <div class="container">
+
+            <div class="case-study__section-header">
+
+                <span class="section-tag">
+
+                    Highlights
+
+                </span>
+
+                <h2 class="section-title">
+
+                    Design Highlights
+
+                </h2>
+
+            </div>
+
+            <div class="case-study__highlights-grid">
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-heart-pulse-line"></i>
+
+                    <h3>
+                        Healthcare UI
+                    </h3>
+
+                    <p>
+                        Modern healthcare-inspired interface.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-layout-4-line"></i>
+
+                    <h3>
+                        Clean Layout
+                    </h3>
+
+                    <p>
+                        Clean and spacious layout.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-shield-check-line"></i>
+
+                    <h3>
+                        Trust First
+                    </h3>
+
+                    <p>
+                        Trust-focused user journey.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-price-tag-3-line"></i>
+
+                    <h3>
+                        Pricing
+                    </h3>
+
+                    <p>
+                        Transparent consultation pricing.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-calendar-check-line"></i>
+
+                    <h3>
+                        Appointment
+                    </h3>
+
+                    <p>
+                        Multiple appointment call-to-actions.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-route-line"></i>
+
+                    <h3>
+                        Booking Flow
+                    </h3>
+
+                    <p>
+                        Simple booking workflow.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-smartphone-line"></i>
+
+                    <h3>
+                        Responsive
+                    </h3>
+
+                    <p>
+                        Responsive page structure.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-focus-3-line"></i>
+
+                    <h3>
+                        Visual Hierarchy
+                    </h3>
+
+                    <p>
+                        Patient-friendly visual hierarchy.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Final Outcome -->
+
+    <!-- =========================
+     Final Outcome
+========================= -->
+
+    <section class="case-study__section case-study__outcome">
+
+        <div class="container">
+
+            <div class="case-study__section-header">
+
+                <span class="section-tag">
+
+                    Outcome
+
+                </span>
+
+                <!-- <span class="section-tag">
+
+                            Project Successfully Completed
+
+                        </span> -->
+
+                <h2 class="section-title">
+
+                    Final Outcome
+
+                </h2>
+
+            </div>
+
+
+            <div class="case-study__content">
+
+                <div class="case-study__text case-study__outcome-card">
+
+                    <p>
+
+
+                        The final design delivers a clean, modern and trustworthy
+                        dental clinic experience that encourages visitors to
+                        confidently schedule an appointment.
+
+                    </p>
+
+                    <p>
+
+                        By combining transparent information, strategically placed
+                        call-to-actions, patient testimonials and a simplified
+                        booking flow, the interface reduces decision friction and
+                        creates a seamless user experience from the first visit
+                        to appointment confirmation.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Next Project -->
+
+    <!-- =========================
+     Next Project
+========================= -->
+
+    <section class="case-study__section case-study__next-project">
+
+        <div class="container">
+
+            <div class="case-study__next-card">
+
+                <span class="section-tag">
+
+                    Next Project
+
+                </span>
+
+                <h2>
+
+                    Royal Sofa Website
+
+                </h2>
+
+                <p>
+
+                    Luxury Furniture Landing Page UI/UX Design
+
+                </p>
+
+                <a href="project-royal-sofa.html" class="btn btn--primary">
+
+                    View Case Study
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    </main>
+
+
+    <!-- Footer (Same as Homepage) -->
+
+
+    <!-- =========================
+     Image Lightbox
+========================= -->
+
+    <div class="case-study__lightbox" role="dialog" aria-modal="true" aria-hidden="true" hidden>
+
+        <button class="case-study__lightbox-close" aria-label="Close">
+
+            <i class="ri-close-line"></i>
+
+        </button>
+
+        <button class="case-study__lightbox-prev" aria-label="Previous">
+
+            <i class="ri-arrow-left-s-line"></i>
+
+        </button>
+
+        <div class="case-study__lightbox-content">
+
+            <img src="" alt="" class="case-study__lightbox-image">
+
+            <p class="case-study__lightbox-caption"></p>
+
+            <span class="case-study__lightbox-counter"></span>
+
+        </div>
+
+        <button class="case-study__lightbox-next" aria-label="Next">
+
+            <i class="ri-arrow-right-s-line"></i>
+
+        </button>
+
+    </div>
+
+
+
+
+    <!-- ==========================================================
+    Footer
+========================================================== -->
+
+
+
+
+            <footer class="footer">
+
+                <div class="container">
+
+                    <div class="footer__top">
+
+                        <a href="#project_hero" class="footer__logo">
+                            Vishal N<span>.</span>
+                        </a>
+
+                        <nav class="footer__nav">
+
+                            <a href="index.html#hero">Home</a>
+                            <a href="index.html#projects">Projects</a>
+                            <a href="index.html#about">About</a>
+                            <a href="index.html#services">Services</a>
+                            <a href="index.html#skills">Skills</a>
+                            <a href="index.html#contact">Contact</a>
+
+                        </nav>
+
+                        <div class="footer__social">
+
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nalawadevishal2001@gmail.com"
+                                target="_blank" rel="noopener noreferrer" aria-label="Email">
+                                <i class="ri-mail-line"></i>
+                            </a>
+
+                            <a href="https://wa.me/917030557456" target="_blank" rel="noopener noreferrer"
+                                aria-label="WhatsApp">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                                aria-label="LinkedIn">
+                                <i class="ri-linkedin-line"></i>
+                            </a>
+
+                            <a href="https://github.com/vish70" target="_blank" rel="noopener noreferrer"
+                                aria-label="GitHub">
+                                <i class="ri-github-line"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="footer__bottom">
+
+                        <a href="#project_hero" class="footer__logo">
+
+                            <img src="favicon.ico" alt="Vishal Nalawade Logo" class="footer__logo">
+                        </a>
+                        
+                        <p>
+                            © 2026 Vishal Nalawade. All rights reserved.
+                        </p>
+
+                        <p>
+                            Designed & Developed by Vishal Nalawade.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </footer>
+
+
+
+
+    <!-- ==========================================================
+    Back To Top
+========================================================== -->
+
+    <button class="scroll-top" id="scroll-top" aria-label="Back to Top">
+
+        <i class="ri-arrow-up-line"></i>
+
+    </button>
+
+
+
+
+
+    <!-- Scroll To Top -->
+
+
+    <!-- GSAP CDN -->
+
+    <!-- ==========================================================
+    JavaScript
+========================================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js">
+    </script>
+
+    <!-- ScrollTrigger CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js">
+    </script>
+
+
+    <!-- Global Script -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Homepage GSAP -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- Case Study Script -->
+    <script src="assets/js/case-study.js"></script>
+
+    <!-- Case Study GSAP -->
+    <script src="assets/js/case-study-gsap.js"></script>
+
+    <!-- Navigation Router -->
+    <script src="js/navigation-router.js"></script>
+
+    <!-- Page Router -->
+    <script src="js/page-router.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,489 @@
+/* ===========================================================
+   PLAYER LIGHTBOX
+=========================================================== */
+
+:root{
+
+    --player-bg:rgba(11,15,25,.96);
+
+    --player-card:#111827;
+
+    --player-border:rgba(255,255,255,.08);
+
+    --player-text:#FFFFFF;
+
+    --player-accent:#FF6B00;
+
+    --player-shadow:0 24px 70px rgba(0,0,0,.45);
+
+    --player-radius:24px;
+
+}
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html,
+body{
+
+    width:100%;
+
+    height:100%;
+
+}
+
+body{
+
+    background:#0B0F19;
+
+    color:var(--player-text);
+
+    font-family:Inter,sans-serif;
+
+    overflow:hidden;
+
+}
+
+/* ===========================================================
+   PLAYER
+=========================================================== */
+
+.player{
+
+    position:fixed;
+
+    inset:0;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    overflow-y:auto;
+
+    padding:3rem;
+
+}
+
+/* ===========================================================
+   OVERLAY
+=========================================================== */
+
+.player__overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:var(--player-bg);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+}
+
+/* ===========================================================
+   CONTENT
+=========================================================== */
+
+.player__content{
+
+    position:relative;
+
+    z-index:2;
+
+    width:min(1500px,92vw);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:3rem;
+
+}
+
+.player__video{
+
+    flex:1;
+
+    width:100%;
+
+    max-width:980px;
+
+    max-height:78vh;
+
+    height:auto;
+
+    object-fit:contain;
+
+    background:#000;
+
+    border-radius:24px;
+
+    border:1px solid var(--player-border);
+
+    box-shadow:var(--player-shadow);
+
+}
+
+/* ===========================================================
+   BUTTONS
+=========================================================== */
+
+.player__button{
+
+    position:fixed;
+
+    z-index:20;
+
+    width:58px;
+
+    height:58px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border:none;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    color:#fff;
+
+    background:rgba(17,24,39,.82);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(16px);
+
+    -webkit-backdrop-filter:blur(16px);
+
+    transition:
+    background .3s ease,
+    transform .3s ease,
+    border-color .3s ease;
+
+}
+
+.player__button i{
+
+    font-size:30px;
+
+}
+
+/* ===========================================================
+   POSITIONS
+=========================================================== */
+
+.player__button--close{
+
+    top:32px;
+
+    right:32px;
+
+}
+
+.player__button--prev{
+
+    left:32px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+}
+
+.player__button--next{
+
+    right:32px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+}
+
+/* ===========================================================
+   HOVER
+=========================================================== */
+
+.player__button:hover{
+
+    background:var(--player-accent);
+
+    border-color:var(--player-accent);
+
+}
+
+.player__button--close:hover{
+
+    transform:scale(1.08);
+
+}
+
+.player__button--prev:hover,
+
+.player__button--next:hover{
+
+    transform:translateY(-50%) scale(1.08);
+
+}
+
+.player__button:active{
+
+    scale:.95;
+
+}
+
+/* ===========================================================
+   TABLET
+=========================================================== */
+
+@media(max-width:991px){
+
+.player__content{
+
+    width:94vw;
+
+    height:78vh;
+
+}
+
+.player__button{
+
+    width:54px;
+
+    height:54px;
+
+}
+
+.player__button i{
+
+    font-size:28px;
+
+}
+
+.player__button--prev{
+
+    left:20px;
+
+}
+
+.player__button--next{
+
+    right:20px;
+
+}
+
+.player__button--close{
+
+    top:20px;
+
+    right:20px;
+
+}
+
+.player__content{
+
+    flex-direction:column;
+
+    gap:2rem;
+
+}
+
+.player__info{
+
+    flex:none;
+
+    width:100%;
+
+    max-width:700px;
+
+    text-align:center;
+
+}
+
+}
+
+/* ===========================================================
+   MOBILE
+=========================================================== */
+
+@media(max-width:768px){
+
+.player__content{
+
+     width:100%;
+
+    max-width:100%;
+
+    padding-top:80px;
+
+    padding-bottom:30px;
+
+}
+
+.player__video{
+
+    width:100%;
+
+    max-height:55vh;
+
+}
+
+.player__button{
+
+    width:50px;
+
+    height:50px;
+
+}
+
+.player__button i{
+
+    font-size:24px;
+
+}
+
+.player__button--prev{
+
+    left:12px;
+
+}
+
+.player__button--next{
+
+    right:12px;
+
+}
+
+.player__button--close{
+
+    top:max(16px,env(safe-area-inset-top));
+
+    right:16px;
+
+}
+
+}
+
+/* ===========================================================
+   SMALL MOBILE
+=========================================================== */
+
+@media(max-width:480px){
+
+.player__button{
+
+    width:46px;
+
+    height:46px;
+
+}
+
+.player__button i{
+
+    font-size:22px;
+
+}
+
+}
+
+
+
+/* ===========================================================
+   INFO
+=========================================================== */
+
+.player__info{
+
+    flex:0 0 360px;
+
+    max-width:360px;
+
+    text-align:left;
+
+}
+
+.player__category{
+
+    display:inline-flex;
+
+    padding:.45rem .9rem;
+
+    border-radius:999px;
+
+    background:rgba(255,107,0,.12);
+
+    color:var(--player-accent);
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+}
+
+.player__title{
+
+    margin-top:1rem;
+
+    font-size:clamp(1.8rem,3vw,2.8rem);
+
+    font-weight:700;
+
+}
+
+.player__description{
+
+    margin-top:1rem;
+
+    max-width:720px;
+
+    margin-inline:auto;
+
+    line-height:1.8;
+
+    color:rgba(255,255,255,.75);
+
+}
+
+@media(max-width:768px){
+
+.player__info{
+
+    margin-top:1.5rem;
+
+    padding-inline:20px;
+
+}
+
+.player__title{
+
+    font-size:1.5rem;
+
+}
+
+.player__description{
+
+    font-size:.95rem;
+
+    line-height:1.7;
+
+}
+
+}

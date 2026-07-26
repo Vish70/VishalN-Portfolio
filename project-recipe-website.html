@@ -1,0 +1,2207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ========================================================= -->
+    <!-- Basic Meta -->
+    <!-- ========================================================= -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Vishal Nalawade | UI/UX Designer & Website Designer
+    </title>
+
+    <meta name="description"
+        content="Portfolio of Vishal Nalawade, a UI/UX Designer specializing in modern websites, mobile app interfaces, interactive prototypes and digital experiences.">
+
+    <meta name="keywords"
+        content="UI UX Designer, Website Designer, Figma, Portfolio, Mobile App Design, Responsive Website">
+
+    <meta name="author" content="Vishal Nalawade">
+
+    <meta name="theme-color" content="#FF9A30">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- ========================================================= -->
+    <!-- Open Graph -->
+    <!-- ========================================================= -->
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:title" content="Vishal Nalawade | UI/UX Designer">
+
+    <meta property="og:description" content="Modern UI/UX Designer Portfolio">
+
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <meta property="og:url" content="https://vish70.github.io/VishalN-Portfolio/">
+
+    <!-- ========================================================= -->
+    <!-- Favicon -->
+    <!-- ========================================================= -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <link rel="icon" href="favicon.ico?v=3" type="image/x-icon">
+
+
+    <!-- ========================================================= -->
+    <!-- Fonts -->
+    <!-- ========================================================= -->
+
+    <!-- Local General Sans -->
+
+    <link rel="preload" href="assets/fonts/GeneralSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- ========================================================= -->
+    <!-- Remix Icons -->
+    <!-- ========================================================= -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Case Study CSS -->
+    <link rel="stylesheet" href="css/case-study.css">
+
+</head>
+
+<body>
+
+    <!-- Preloader (Same as Homepage) -->
+
+
+    <!-- Cursor (Same as Homepage) -->
+
+
+    <!-- Scroll Progress (Same as Homepage) -->
+
+
+    <!-- Header (Same as Homepage) -->
+
+
+    <!-- ==========================================================
+        Custom Cursor
+    =========================================================== -->
+    <div class="cursor">
+        <div class="cursor__dot"></div>
+        <div class="cursor__outline"></div>
+    </div>
+
+    <!-- ==========================================================
+        Scroll Progress
+    =========================================================== -->
+    <div class="scroll-progress">
+        <span class="scroll-progress__bar"></span>
+    </div>
+
+    <!-- ==========================================================
+        Page Preloader
+    =========================================================== -->
+    <div class="preloader" id="preloader">
+
+        <div class="preloader__inner">
+
+            <div class="preloader__logo">
+                <span><img src="favicon.ico" alt="logo_"></span>
+            </div>
+
+            <div class="preloader__loading">
+                <span class="preloader__line"></span>
+            </div>
+
+            <p class="preloader__text">
+                Loading Portfolio...
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================================================
+        Site Wrapper
+    =========================================================== -->
+    <div class="site-wrapper">
+
+        <!-- Header Starts Here (Part 3) -->
+
+        <!-- ==========================================================
+            Header
+        =========================================================== -->
+        <header class="header" id="header">
+
+            <div class="container">
+
+                <div class="header__wrapper">
+
+                    <!-- Logo -->
+                    <a href="#project_hero" class="logo" aria-label="Vishal Nalawade Portfolio">
+                        <!-- <span class="logo__text">VN.</span> -->
+                        <span><img src="favicon.ico" alt="logo_"></span>
+
+                    </a>
+
+                    <!-- Desktop Navigation -->
+                    <nav class="nav" aria-label="Primary Navigation">
+
+                        <ul class="nav__list">
+
+                            <li class="nav__item">
+                                <a href="index.html#hero" class="nav__link">
+                                    Home
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#projects" class="nav__link">
+                                    Projects
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#about" class="nav__link">
+                                    About
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#services" class="nav__link">
+                                    Services
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#skills" class="nav__link">
+                                    Skills
+                                </a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="index.html#contact" class="nav__link">
+                                    Contact
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </nav>
+
+                    <!-- Right Actions -->
+                    <div class="header__actions">
+
+                        <a href="index.html#contact" class="btn btn--primary">
+                            Let's Talk
+                        </a>
+
+                        <button class="menu-toggle" id="menu-toggle" aria-label="Open Menu" aria-expanded="false"
+                            aria-controls="mobile-menu">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- ==========================================================
+            Mobile Navigation
+        =========================================================== -->
+
+        <aside class="mobile-menu" id="mobile-menu" aria-hidden="true">
+
+            <div class="mobile-menu__header">
+
+                <a href="#project_hero" class="logo">
+                    <span class="logo__text">VN.</span>
+                </a>
+
+                <button class="mobile-menu__close" id="menu-close" aria-label="Close Menu">
+
+                    <i class="ri-close-line"></i>
+
+                </button>
+
+            </div>
+
+            <nav class="mobile-nav">
+
+                <ul class="mobile-nav__list">
+
+                    <li>
+                        <a href="index.html#hero">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#projects">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#about">About</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#services">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#skills">Skills</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="mobile-menu__footer">
+
+                <a href="index.html#contact" class="btn btn--primary btn--full">
+                    Let's Talk
+                </a>
+
+            </div>
+
+        </aside>
+
+
+
+        <main class="case-study">
+
+            <!-- Breadcrumb -->
+
+
+            <!-- Hero -->
+
+            <!-- =========================
+     Breadcrumb
+========================= -->
+
+            <section class="case-study__breadcrumb" id="project_hero">
+                <div class="container">
+
+                    <nav class="breadcrumb" aria-label="Breadcrumb">
+
+                        <a href="index.html">Home</a>
+
+                        <span>/</span>
+
+                        <a href="index.html#projects">Projects</a>
+
+                        <span>/</span>
+
+                        <span aria-current="page">Healthy & Delicious Recipes Website</span>
+
+                    </nav>
+
+                </div>
+            </section>
+
+
+            <!-- =========================
+     Hero
+========================= -->
+
+            <section class="case-study__hero">
+
+                <div class="container">
+
+                    <div class="case-study__hero-content">
+
+                        <span class="case-study__badge">
+                            Recipe Website
+                        </span>
+
+                        <h1 class="case-study__title">
+                            Healthy & Delicious Recipes Website
+                        </h1>
+
+                        <p class="case-study__description">
+
+                            Alfa Omega Shipping & Consultancy Website
+                            A modern shipping and logistics website designed to showcase transportation services,
+                            simplify shipment tracking, share industry insights through blogs, and provide businesses
+                            with a seamless enquiry experience through a clean and professional interface.
+                        </p>
+
+                        <div class="case-study__actions">
+
+                            <a href="#overview" class="btn btn--primary">
+
+                                Explore Case Study
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="case-study__hero-image">
+
+                        <img src="assets/images/project-case-study/recipe/hero.webp" alt="Royal Sofa Homepage"
+                            loading="eager">
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- Project Overview -->
+
+            <section id="overview" class="case-study__section case-study__overview">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Overview
+                        </span>
+
+                        <h2 class="section-title">
+                            Project Overview
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__overview-content">
+
+                        <p>
+
+                            This project is a modern recipe website designed to help users discover, explore, and
+                            prepare recipes from different cuisines around the world through a clean and enjoyable
+                            cooking experience.
+
+                            The primary goal was to make recipes easy to browse, simple to understand, and enjoyable to
+                            follow by combining detailed cooking instructions, ingredient lists, ratings, and premium
+                            content into a user-friendly interface.
+
+                            Rather than overwhelming users with unnecessary information, every page is designed to
+                            support a smooth journey—from discovering a recipe to successfully cooking it.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Project Information -->
+
+            <!-- =========================
+     Project Information
+========================= -->
+
+            <section class="case-study__section case-study__project-info">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Information
+                        </span>
+
+                        <h2 class="section-title">
+                            Project Information
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__info-grid">
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-user-star-line"></i>
+
+                            <span>Project Role</span>
+
+                            <h3>UI/UX Design</h3>
+
+                        </div>
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-layout-grid-line"></i>
+
+                            <span>Category</span>
+
+                            <h3>Recipe Website</h3>
+
+                        </div>
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-pen-nib-line"></i>
+
+                            <span>Tools</span>
+
+                            <h3>Figma</h3>
+
+                        </div>
+
+                        <div class="case-study__info-card">
+
+                            <i class="ri-computer-line"></i>
+
+                            <span>Platform</span>
+
+                            <h3>Responsive Website</h3>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Challenge -->
+
+            <!-- =========================
+     Challenge
+========================= -->
+
+            <section class="case-study__section case-study__challenge">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Challenge
+                        </span>
+
+                        <h2 class="section-title">
+                            Design Challenge
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__content">
+
+                        <div class="case-study__text">
+                            <p>
+
+                                <!--  CHALLENGE CONTENT  -->
+
+
+                                Many recipe websites contain cluttered layouts, intrusive advertisements, and
+                                inconsistent recipe formatting, making it difficult for users to focus on cooking.
+
+                                The challenge was to design a website that:
+
+                                Makes recipe discovery effortless.
+                                Organizes cooking instructions clearly.
+                                Supports users with detailed ingredients and preparation steps.
+                                Encourages community interaction through ratings and reviews.
+                                Offers premium content through a simple subscription experience.
+                                Maintains a clean and distraction-free interface.
+
+
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Design Goals -->
+
+            <!-- =========================
+     Design Goals
+========================= -->
+
+            <section class="case-study__section case-study__design-goals">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            UX Goals
+                        </span>
+
+                        <h2 class="section-title">
+                            User Experience Design Goals
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__goals-grid">
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-restaurant-line"></i>
+
+                            <h3>
+                                Recipe Discovery
+                            </h3>
+
+                            <p>
+                                Discover recipes easily.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-earth-line"></i>
+
+                            <h3>
+                                Global Cuisines
+                            </h3>
+
+                            <p>
+                                Explore global cuisines.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-book-open-line"></i>
+
+                            <h3>
+                                Comfortable Reading
+                            </h3>
+
+                            <p>
+                                Read recipes comfortably.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-list-check-3"></i>
+
+                            <h3>
+                                Step-by-Step Cooking
+                            </h3>
+
+                            <p>
+                                Follow cooking instructions step by step.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-star-smile-line"></i>
+
+                            <h3>
+                                Reviews & Ratings
+                            </h3>
+
+                            <p>
+                                Share reviews and ratings.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-vip-crown-line"></i>
+
+                            <h3>
+                                Easy Subscription
+                            </h3>
+
+                            <p>
+                                Manage subscriptions effortlessly.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-lock-unlock-line"></i>
+
+                            <h3>
+                                Premium Access
+                            </h3>
+
+                            <p>
+                                Access premium content seamlessly.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-focus-3-line"></i>
+
+                            <h3>
+                                Focused Browsing
+                            </h3>
+
+                            <p>
+                                Enjoy a distraction-free browsing experience.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Design Process -->
+
+            <!-- =========================
+     Design Process
+========================= -->
+
+            <section class="case-study__section case-study__process">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+                            Process
+                        </span>
+
+                        <h2 class="section-title">
+                            Design Process
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__timeline">
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+                                01
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+                                    Research & Requirement Understanding
+                                </h3>
+
+                                <p>
+                                    Identified user needs, cooking habits, and business requirements to create an
+                                    enjoyable and intuitive recipe browsing experience.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+                                02
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+                                    Information Architecture
+                                </h3>
+
+                                <p>
+                                    Organized recipes, cuisines, categories, premium content, and navigation to help
+                                    users discover recipes with ease.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+                                03
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+                                    UI Design
+                                </h3>
+
+                                <p>
+                                    Designed a clean and modern interface with appetizing visuals, clear typography, and
+                                    intuitive layouts for comfortable reading.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+                                04
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+                                    Interactive Prototype
+                                </h3>
+
+                                <p>
+                                    Built interactive user flows to validate recipe browsing, cooking instructions,
+                                    subscriptions, reviews, and overall navigation.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="case-study__timeline-item">
+
+                            <div class="case-study__timeline-number">
+                                05
+                            </div>
+
+                            <div class="case-study__timeline-content">
+
+                                <h3>
+                                    User-Friendly Cooking Experience
+                                </h3>
+
+                                <p>
+                                    Refined the complete user journey to help visitors discover recipes, follow cooking
+                                    instructions, and enjoy a seamless cooking experience from start to finish.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+    </div>
+
+    </section>
+
+
+    <!-- Design Approach -->
+
+    <!-- =========================
+     Design Approach 
+========================= -->
+
+    <section class="case-study__section case-study__design-approach">
+
+        <div class="container">
+
+            <div class="case-study__section-header">
+
+                <span class="section-tag">
+                    Design Approach
+                </span>
+
+                <h2 class="section-title">
+                    Design Approach
+                </h2>
+
+                <p>
+                    The interface follows a clean, minimal, and modern design language.
+                    Each section is carefully structured to guide users naturally from discovering recipes to reading
+                    detailed cooking instructions while maintaining excellent readability.
+                </p>
+
+            </div>
+
+            <div class="case-study__goals-grid">
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-layout-4-line"></i>
+
+                    <h3>Clean Visual Hierarchy</h3>
+
+                    <p>
+                        Clean visual hierarchy
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-layout-grid-line"></i>
+
+                    <h3>Comfortable Spacing</h3>
+
+                    <p>
+                        Comfortable spacing
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-route-line"></i>
+
+                    <h3>Easy Navigation</h3>
+
+                    <p>
+                        Easy navigation
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-restaurant-line"></i>
+
+                    <h3>Recipe-Focused Layouts</h3>
+
+                    <p>
+                        Recipe-focused layouts
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-cursor-line"></i>
+
+                    <h3>Accessible Call-to-Action</h3>
+
+                    <p>
+                        Accessible Call-to-Action buttons
+                    </p>
+
+                </div>
+
+                <div class="case-study__goal-card">
+
+                    <i class="ri-book-open-line"></i>
+
+                    <h3>User-Friendly Reading</h3>
+
+                    <p>
+                        User-friendly reading experience
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Color Strategy -->
+
+    <!-- =========================
+     Color Strategy
+========================= -->
+
+    <section class="case-study__section case-study__colors">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Color Strategy
+                    </span>
+
+                    <h2 class="section-title">
+                        Freshness Through Color
+                    </h2>
+
+                    <p>
+                        The interface combines warm food-inspired colors with a clean white background.
+                    </p>
+
+                    <p>
+                        Orange represents freshness, appetite, and energy, while green highlights healthy ingredients
+                        and balanced nutrition. Soft colorful gradients are used subtly throughout the interface to
+                        create a modern and welcoming atmosphere without distracting users from the recipe content.
+                    </p>
+
+                </div>
+
+                <div class="case-study__color-palette">
+
+                    <div class="case-study__color-card">
+
+                        <div class="case-study__color-preview" style="background:#FF9205;">
+                        </div>
+
+                        <h3>Fresh Orange</h3>
+
+                        <span>#FF9205</span>
+
+                    </div>
+
+                    <div class="case-study__color-card">
+
+                        <div class="case-study__color-preview" style="background:#9BD54A;">
+                        </div>
+
+                        <h3>Healthy Green</h3>
+
+                        <span>#9BD54A</span>
+
+                    </div>
+
+                    <div class="case-study__color-card">
+
+                        <div class="case-study__color-preview"
+                            style="background:#FFFFFF; border:1px solid rgba(0,0,0,.08);">
+                        </div>
+
+                        <h3>White Background</h3>
+
+                        <span>#FFFFFF</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+     Homepage
+========================= -->
+
+
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Homepage
+                    </span>
+
+                    <h2 class="section-title">
+                        Homepage Experience
+                    </h2>
+
+                    <p>
+                        The homepage is designed to help users quickly discover recipes based on cuisines and popular
+                        dishes.
+                    </p>
+
+                    <p>
+                        The hero section immediately communicates the website identity, healthy cooking experience, and
+                        global recipe discovery through a clean and modern interface.
+                    </p>
+
+                    <p>
+                        A prominent search bar and Explore button help users quickly find recipes and begin browsing
+                        with minimal effort.
+                    </p>
+
+                </div>
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/recipe/home.webp" alt="Homepage Experience"
+                        loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+                        <i class="ri-fullscreen-line"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Categories -->
+
+    <!-- =========================
+   Categories
+========================= -->
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content case-study__content--reverse">
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/recipe/categories.webp" alt="Recipe Categories"
+                        loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+                        <i class="ri-fullscreen-line"></i>
+                    </button>
+
+                </div>
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Categories
+                    </span>
+
+                    <h2 class="section-title">
+                        Recipe Categories
+                    </h2>
+
+                    <p>
+                        Recipes are organized by countries and cuisines, allowing users to easily explore dishes from
+                        around the world.
+                    </p>
+
+                    <p>
+                        Visitors can browse international cuisines, discover traditional flavors, and visually explore
+                        different food categories.
+                    </p>
+
+                    <p>
+                        This organized structure makes recipe discovery faster and more enjoyable.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Must-Try Recipes -->
+
+    <!-- =========================
+     Must-Try Recipes
+========================= -->
+
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Featured Recipes
+                    </span>
+
+                    <h2 class="section-title">
+                        Must-Try Recipes
+                    </h2>
+
+                    <p>
+                        Featured recipes showcase recommended dishes that users can quickly discover from the homepage.
+                    </p>
+
+                    <p>
+                        Each recipe card displays a food image, community rating, cooking time, and a View Recipe
+                        button.
+                    </p>
+
+                    <p>
+                        This allows visitors to compare recipes and access detailed instructions with a single click.
+                    </p>
+
+                </div>
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/recipe/must try recipes.webp" alt="Must Try Recipes"
+                        loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+                        <i class="ri-fullscreen-line"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Top Rated Recipes -->
+
+    <!-- =========================
+    Top Rated Recipes
+========================= -->
+
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content case-study__content--reverse">
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/recipe/top recipes.webp" alt="Top Rated Recipes"
+                        loading="lazy">
+
+                    <button class="case-study__expand" aria-label="View Full Size">
+                        <i class="ri-fullscreen-line"></i>
+                    </button>
+
+                </div>
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Top Rated
+                    </span>
+
+                    <h2 class="section-title">
+                        Top Rated Recipes
+                    </h2>
+
+                    <p>
+                        The Top Rated section highlights recipes that have received the highest ratings from the
+                        community.
+                    </p>
+
+                    <p>
+                        Displaying popular recipes first helps users discover trusted meals without browsing the entire
+                        collection.
+                    </p>
+
+                    <p>
+                        Community ratings make recipe selection faster and more reliable.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Newsletter -->
+
+
+    <!-- =========================
+      Newsletter
+========================= -->
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Newsletter
+                    </span>
+
+                    <h2 class="section-title">
+                        Newsletter Subscription
+                    </h2>
+
+                    <p>
+                        Visitors can subscribe using their email address to receive new recipes, cooking inspiration,
+                        and food updates.
+                    </p>
+
+                    <p>
+                        The clean subscription form encourages users to stay connected with newly published content.
+                    </p>
+
+                    <p>
+                        Keeping the signup process simple increases user engagement and repeat visits.
+                    </p>
+
+                </div>
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/recipe/newslater.webp" alt="Newsletter Subscription"
+                        loading="lazy">
+
+                    <button class="case-study__expand">
+                        <i class="ri-fullscreen-line"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About Section Showcase -->
+
+
+    <!-- =========================
+     About Section Showcase
+========================= -->
+
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content case-study__content--reverse">
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/recipe/about.webp" alt="About Section" loading="lazy">
+
+                    <button class="case-study__expand">
+                        <i class="ri-fullscreen-line"></i>
+                    </button>
+
+                </div>
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        About
+                    </span>
+
+                    <h2 class="section-title">
+                        About Section
+                    </h2>
+
+                    <p>
+                        The About section introduces the platform's mission of making healthy and delicious recipes
+                        accessible to everyone.
+                    </p>
+
+                    <p>
+                        It explains the focus on simple cooking methods, global cuisines, and easy-to-follow recipes.
+                    </p>
+
+                    <p>
+                        The clean presentation builds trust while introducing visitors to the platform.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Recipe Details Showcase -->
+
+
+    <!-- =========================
+      Recipe Details Showcase
+========================= -->
+
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Recipe Details
+                    </span>
+
+                    <h2 class="section-title">
+                        Recipe Details Experience
+                    </h2>
+
+                    <p>
+                        The recipe details page brings everything users need for cooking into one organized experience.
+                    </p>
+
+                    <p>
+                        Users can view recipe descriptions, ingredients, preparation steps, cooking tips, ratings,
+                        reviews, and community feedback.
+                    </p>
+
+                    <p>
+                        Keeping all cooking information together allows users to follow recipes comfortably without
+                        switching between pages.
+                    </p>
+
+                </div>
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/recipe/recipe details.webp" alt="Recipe Details"
+                        loading="lazy">
+
+                    <button class="case-study__expand">
+                        <i class="ri-fullscreen-line"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Subscription Showcase -->
+
+
+    <!-- =========================
+      Subscription Showcase
+========================= -->
+
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content case-study__content--reverse">
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/recipe/subscription popup.webp"
+                        alt="Subscription Experience" loading="lazy">
+
+                    <button class="case-study__expand">
+                        <i class="ri-fullscreen-line"></i>
+                    </button>
+
+                </div>
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Subscription
+                    </span>
+
+                    <h2 class="section-title">
+                        Subscription Experience
+                    </h2>
+
+                    <p>
+                        Users can compare Basic and Premium plans through a clean subscription popup before upgrading.
+                    </p>
+
+                    <p>
+                        The popup clearly highlights available features, making plan selection simple and transparent.
+                    </p>
+
+                    <p>
+                        Premium members gain access to exclusive recipes, cooking videos, reviews, community features,
+                        and priority content.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- User Profile
+
+
+          =========================
+     User Profile
+========================= -->
+
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Profile
+                    </span>
+
+                    <h2 class="section-title">
+                        User Profile
+                    </h2>
+
+                    <p>
+                        The profile page allows users to manage their account information and subscription details from
+                        one location.
+                    </p>
+
+                    <p>
+                        Users can update profile information, switch subscription plans, check membership validity, and
+                        manage account settings.
+                    </p>
+
+                    <p>
+                        A simple account management experience encourages long-term engagement.
+                    </p>
+
+                </div>
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/recipe/profile.webp" alt="User Profile" loading="lazy">
+
+                    <button class="case-study__expand">
+                        <i class="ri-fullscreen-line"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Authentication Showcase -->
+
+
+    <!-- =========================
+      Authentication Showcase
+========================= -->
+
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content case-study__content--reverse">
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/recipe/login.webp" alt="Authentication" loading="lazy">
+
+                    <button class="case-study__expand">
+                        <i class="ri-fullscreen-line"></i>
+                    </button>
+
+                </div>
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Authentication
+                    </span>
+
+                    <h2 class="section-title">
+                        Authentication Experience
+                    </h2>
+
+                    <p>
+                        A clean login interface allows users to securely access their accounts with minimal effort.
+                    </p>
+
+                    <p>
+                        The authentication flow includes login, registration, password recovery, and quick account
+                        access.
+                    </p>
+
+                    <p>
+                        A simple and uncluttered layout reduces friction while improving the overall user experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Responsive Showcase -->
+
+
+    <!-- =========================
+      Responsive Showcase
+========================= -->
+
+
+    <section class="case-study__section case-study__showcase">
+
+        <div class="container">
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <span class="section-tag">
+                        Responsive Design
+                    </span>
+
+                    <h2 class="section-title">
+                        Responsive Experience
+                    </h2>
+
+                    <p>
+                        The website is fully responsive, providing a seamless experience across desktop, tablet, and
+                        mobile devices.
+                    </p>
+
+                    <p>
+                        Layouts automatically adapt to different screen sizes while maintaining clear navigation,
+                        readable typography, and consistent functionality.
+                    </p>
+
+                    <p>
+                        Users can comfortably browse recipes and access every core feature regardless of the device they
+                        use.
+                    </p>
+
+                </div>
+
+                <div class="case-study__image">
+
+                    <img src="assets/images/project-case-study/recipe/responsive.webp" alt="Responsive Experience"
+                        loading="lazy">
+
+                    <button class="case-study__expand">
+                        <i class="ri-fullscreen-line"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- User Experience Goals
+
+
+          =========================
+     User Experience Goals
+========================= -->
+
+    <!-- <section class="case-study__section case-study__ux-goals">
+
+                <div class="container">
+
+                    <div class="case-study__section-header">
+
+                        <span class="section-tag">
+
+                            UX Goals
+
+                        </span>
+
+                        <h2 class="section-title">
+
+                            User Experience Goals
+
+                        </h2>
+
+                    </div>
+
+                    <div class="case-study__goals-grid">
+
+                        <div class="case-study__goal-card">
+
+                            <i class="ri-service-line"></i>
+
+                            <h3>Service Discovery</h3>
+
+                            <p>Understand available services quickly.</p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>02</h3>
+
+                            <p>
+                                View consultation pricing before booking.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>03</h3>
+
+                            <p>
+                                Build trust through patient testimonials.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>04</h3>
+
+                            <p>
+                                Find important actions without searching.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>05</h3>
+
+                            <p>
+                                Complete the booking process with minimal effort.
+                            </p>
+
+                        </div>
+
+                        <div class="case-study__goal-card">
+
+                            <h3>06</h3>
+
+                            <p>
+                                Receive instant booking confirmation.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>  -->
+
+
+    <!-- Conversion Strategy -->
+
+    <!-- =========================
+     Conversion Strategy
+========================= -->
+
+
+    <section class="case-study__section case-study__challenge">
+
+        <div class="container">
+
+            <div class="case-study__section-header">
+
+                <span class="section-tag">
+                    Strategy
+                </span>
+
+                <h2 class="section-title">
+                    Conversion Strategy
+                </h2>
+
+            </div>
+
+            <div class="case-study__content">
+
+                <div class="case-study__text">
+
+                    <p>
+
+                        The platform is designed to encourage continuous engagement by making recipe discovery simple,
+                        intuitive, and enjoyable from the very first visit.
+
+                    </p>
+
+                    <p>
+
+                        Users can easily explore recipes through categories, featured collections, and detailed cooking
+                        pages, while ratings and community reviews help build confidence before trying a recipe.
+
+                    </p>
+
+                    <p>
+
+                        Premium features are introduced through a clean subscription popup that allows users to upgrade
+                        without interrupting their browsing experience, creating a smooth journey that supports
+                        long-term engagement and conversions.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Design Highlights -->
+
+    <!-- =========================
+     Design Highlights
+========================= -->
+
+    <section class="case-study__section case-study__highlights">
+
+        <div class="container">
+
+            <div class="case-study__section-header">
+
+                <span class="section-tag">
+                    Highlights
+                </span>
+
+                <h2 class="section-title">
+                    Design Highlights
+                </h2>
+
+            </div>
+
+            <div class="case-study__highlights-grid">
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-restaurant-line"></i>
+
+                    <h3>
+                        Food-Inspired UI
+                    </h3>
+
+                    <p>
+                        Modern food-inspired interface.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-layout-4-line"></i>
+
+                    <h3>
+                        Visual Hierarchy
+                    </h3>
+
+                    <p>
+                        Clean visual hierarchy.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-global-line"></i>
+
+                    <h3>
+                        Global Cuisines
+                    </h3>
+
+                    <p>
+                        Global cuisine categorization.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-search-line"></i>
+
+                    <h3>
+                        Recipe Search
+                    </h3>
+
+                    <p>
+                        Powerful recipe search.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-book-open-line"></i>
+
+                    <h3>
+                        Recipe Details
+                    </h3>
+
+                    <p>
+                        Detailed recipe experience.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-star-smile-line"></i>
+
+                    <h3>
+                        Ratings & Reviews
+                    </h3>
+
+                    <p>
+                        Interactive ratings & reviews.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-vip-crown-line"></i>
+
+                    <h3>
+                        Subscription Plans
+                    </h3>
+
+                    <p>
+                        Basic and Premium plans.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-user-settings-line"></i>
+
+                    <h3>
+                        User Profile
+                    </h3>
+
+                    <p>
+                        Easy profile management.
+                    </p>
+
+                </div>
+
+                <div class="case-study__highlight-card">
+
+                    <i class="ri-device-line"></i>
+
+                    <h3>
+                        Responsive Design
+                    </h3>
+
+                    <p>
+                        Optimized for every device.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Final Outcome -->
+
+    <!-- =========================
+     Final Outcome
+========================= -->
+
+
+    <section class="case-study__section case-study__outcome">
+
+        <div class="container">
+
+            <div class="case-study__section-header">
+
+                <span class="section-tag">
+                    Outcome
+                </span>
+
+                <h2 class="section-title">
+                    Final Outcome
+                </h2>
+
+            </div>
+
+            <div class="case-study__content">
+
+                <div class="case-study__text case-study__outcome-card">
+
+                    <p>
+
+                        The final design delivers a clean, engaging, and user-friendly recipe platform that makes
+                        discovering
+                        and preparing food simple, enjoyable, and accessible for users of all skill levels.
+
+                    </p>
+
+                    <p>
+
+                        By combining organized recipe collections, detailed cooking guidance, community reviews, premium
+                        subscriptions, intuitive navigation, and a fully responsive interface, the platform creates a
+                        seamless
+                        journey from recipe discovery to successful cooking while encouraging users to return for new
+                        recipes
+                        and culinary inspiration.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Next Project -->
+
+    <!-- =========================
+     Next Project
+========================= -->
+
+    <section class="case-study__section case-study__next-project">
+
+        <div class="container">
+
+            <div class="case-study__next-card">
+
+                <span class="section-tag">
+                    Next Project
+                </span>
+
+                <h2>
+                    My Travel App
+                </h2>
+
+                <p>
+
+                    Mobile App UI
+
+                    <br>
+
+                    My Travel is a travel booking and tour discovery mobile application designed to simplify trip
+                    planning
+                    and destination exploration.
+
+                </p>
+
+                <a href="project-travel-app.html" class="btn btn--primary">
+
+                    View Case Study
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    </main>
+
+
+    <!-- Footer (Same as Homepage) -->
+
+
+    <!-- =========================
+     Image Lightbox
+========================= -->
+
+    <div class="case-study__lightbox" role="dialog" aria-modal="true" aria-hidden="true" hidden>
+
+        <button class="case-study__lightbox-close" aria-label="Close">
+
+            <i class="ri-close-line"></i>
+
+        </button>
+
+        <button class="case-study__lightbox-prev" aria-label="Previous">
+
+            <i class="ri-arrow-left-s-line"></i>
+
+        </button>
+
+        <div class="case-study__lightbox-content">
+
+            <img src="" alt="" class="case-study__lightbox-image">
+
+            <p class="case-study__lightbox-caption"></p>
+
+            <span class="case-study__lightbox-counter"></span>
+
+        </div>
+
+        <button class="case-study__lightbox-next" aria-label="Next">
+
+            <i class="ri-arrow-right-s-line"></i>
+
+        </button>
+
+    </div>
+
+
+
+
+    <!-- ==========================================================
+    Footer
+========================================================== -->
+
+
+
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer__top">
+
+                <a href="#project_hero" class="footer__logo">
+                    Vishal N<span>.</span>
+                </a>
+
+                <nav class="footer__nav">
+
+                    <a href="index.html#hero">Home</a>
+                    <a href="index.html#projects">Projects</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#services">Services</a>
+                    <a href="index.html#skills">Skills</a>
+                    <a href="index.html#contact">Contact</a>
+
+                </nav>
+
+                <div class="footer__social">
+
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nalawadevishal2001@gmail.com" target="_blank"
+                        rel="noopener noreferrer" aria-label="Email">
+                        <i class="ri-mail-line"></i>
+                    </a>
+
+                    <a href="https://wa.me/917030557456" target="_blank" rel="noopener noreferrer"
+                        aria-label="WhatsApp">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+
+                    <a href="https://github.com/vish70" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="ri-github-line"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer__bottom">
+
+                <a href="#project_hero" class="footer__logo">
+
+                    <img src="favicon.ico" alt="Vishal Nalawade Logo" class="footer__logo">
+                </a>
+
+                <p>
+                    © 2026 Vishal Nalawade. All rights reserved.
+                </p>
+
+                <p>
+                    Designed & Developed by Vishal Nalawade.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+    <!-- ==========================================================
+    Back To Top
+========================================================== -->
+
+    <button class="scroll-top" id="scroll-top" aria-label="Back to Top">
+
+        <i class="ri-arrow-up-line"></i>
+
+    </button>
+
+
+
+
+
+    <!-- Scroll To Top -->
+
+
+    <!-- GSAP CDN -->
+
+    <!-- ==========================================================
+    JavaScript
+========================================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js">
+    </script>
+
+    <!-- ScrollTrigger CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js">
+    </script>
+
+
+    <!-- Global Script -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Homepage GSAP -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- Case Study Script -->
+    <script src="assets/js/case-study.js"></script>
+
+    <!-- Case Study GSAP -->
+    <script src="assets/js/case-study-gsap.js"></script>
+
+    <!-- Navigation Router -->
+    <script src="js/navigation-router.js"></script>
+
+    <!-- Page Router -->
+    <script src="js/page-router.js"></script>
+
+
+</body>
+
+</html>
