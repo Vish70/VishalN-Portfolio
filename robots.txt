@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vish70.github.io/VishalN-Portfolio/sitemap.xml
