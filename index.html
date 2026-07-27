@@ -4,22 +4,23 @@
 <head>
 
 
-    <!-- ========================================================= -->
-    <!-- Structured Data (JSON-LD) -->
-    <!-- ========================================================= -->
+<!-- ========================================================= -->
+<!-- Structured Data (JSON-LD) -->
+<!-- ========================================================= -->
 
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
+
     {
       "@type": "Person",
       "@id": "https://vish70.github.io/VishalN-Portfolio/#person",
       "name": "Vishal Nalawade",
       "url": "https://vish70.github.io/VishalN-Portfolio/",
-    "image": "https://vish70.github.io/VishalN-Portfolio/assets/images/about/vishal-nalawade.webp",
+      "image": "https://vish70.github.io/VishalN-Portfolio/assets/images/about/vishal-nalawade.webp",
       "jobTitle": "UI/UX Designer & Website Designer",
-      "description": "UI/UX Designer specializing in Website Design, Mobile App Design, Responsive UI, Interactive Prototyping, and Figma.",
+      "description": "UI/UX Designer specializing in Website Design, Mobile App Design, Responsive UI, Interactive Prototyping and Figma.",
       "knowsAbout": [
         "UI/UX Design",
         "Website Design",
@@ -28,23 +29,39 @@
         "Interactive Prototyping",
         "Figma"
       ],
+      "worksFor": {
+        "@id": "https://vish70.github.io/VishalN-Portfolio/#organization"
+      },
       "sameAs": [
         "https://github.com/Vish70",
         "https://www.linkedin.com/in/vishal-nalawade%F0%9F%92%AB-baa6ab247/",
         "https://contra.com/vishal_nalawade_ppgnlmrp"
       ]
     },
+
+    {
+      "@type": "Organization",
+      "@id": "https://vish70.github.io/VishalN-Portfolio/#organization",
+      "name": "Vishal Nalawade Portfolio",
+      "url": "https://vish70.github.io/VishalN-Portfolio/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://vish70.github.io/VishalN-Portfolio/VishalN-Portfolio-Logo.png"
+      }
+    },
+
     {
       "@type": "WebSite",
       "@id": "https://vish70.github.io/VishalN-Portfolio/#website",
       "url": "https://vish70.github.io/VishalN-Portfolio/",
       "name": "Vishal Nalawade Portfolio",
-      "description": "Portfolio showcasing UI/UX design projects, responsive websites, and mobile app case studies.",
+      "description": "Portfolio showcasing UI/UX design projects, responsive websites and mobile app case studies.",
       "publisher": {
-        "@id": "https://vish70.github.io/VishalN-Portfolio/#person"
+        "@id": "https://vish70.github.io/VishalN-Portfolio/#organization"
       },
       "inLanguage": "en"
     }
+
   ]
 }
 </script>
@@ -1750,7 +1767,7 @@
                                 <i class="ri-whatsapp-line"></i>
                             </a>
 
-                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
+                            <a href="https://www.linkedin.com/in/vishal-nalawade%F0%9F%92%AB-baa6ab247/" target="_blank" rel="noopener noreferrer"
                                 aria-label="LinkedIn">
                                 <i class="ri-linkedin-line"></i>
                             </a>
