@@ -11,15 +11,13 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>
-        Vishal Nalawade | UI/UX Designer & Website Designer
-    </title>
+    <title>Vishal Nalawade | UI/UX Designer, Website Designer & Figma Expert</title>
 
     <meta name="description"
-        content="Portfolio of Vishal Nalawade, a UI/UX Designer specializing in modern websites, mobile app interfaces, interactive prototypes and digital experiences.">
+        content="Portfolio of Vishal Nalawade, a UI/UX Designer specializing in Modern Website Design, Mobile App Design, Responsive UI, Figma, interactive prototypes and user-centered digital experiences.">
 
     <meta name="keywords"
-        content="UI UX Designer, Website Designer, Figma, Portfolio, Mobile App Design, Responsive Website">
+        content="UI UX Designer, Website Designer, Figma, Portfolio, Mobile App Design, Responsive Website, Vishal Nalawade Portfolio, Vishal Nalawade UI UX Designer, Vishal Nalawade Website Designer, Vishal Nalawade, UI UX Designer Maharashtra, UI UX Designer India Portfolio, Figma Website Designer Portfolio, Figma UI UX Designer Portfolio, Responsive Website Designer India, Vishal Nalawade Figma">
 
     <meta name="author" content="Vishal Nalawade">
 
@@ -82,91 +80,64 @@
 
 <body>
 
-<div class="player">
+    <div class="player">
 
-    <!-- Overlay -->
+        <!-- Overlay -->
 
-    <div class="player__overlay"></div>
+        <div class="player__overlay"></div>
 
-    <!-- Close -->
+        <!-- Close -->
 
-    <button
-        class="player__button player__button--close"
-        id="back-button"
-        aria-label="Back">
+        <button class="player__button player__button--close" id="back-button" aria-label="Back">
 
-        <i class="ri-close-line"></i>
+            <i class="ri-close-line"></i>
 
-    </button>
+        </button>
 
-    <!-- Previous -->
+        <!-- Previous -->
 
-    <button
-        class="player__button player__button--prev"
-        id="player-prev"
-        aria-label="Previous">
+        <button class="player__button player__button--prev" id="player-prev" aria-label="Previous">
 
-        <i class="ri-arrow-left-s-line"></i>
+            <i class="ri-arrow-left-s-line"></i>
 
-    </button>
+        </button>
 
-    <!-- Content -->
+        <!-- Content -->
 
-    <div class="player__content">
+        <div class="player__content">
 
-        <video
+            <video id="player-video" class="player__video" controls playsinline preload="auto" autoplay>
 
-            id="player-video"
-
-            class="player__video"
-
-            controls
-
-            playsinline
-
-            preload="auto"
-
-            autoplay>
-
-        </video>
+            </video>
 
 
-        <div class="player__info">
+            <div class="player__info">
 
-    <span
-        class="player__category"
-        id="player-category">
-    </span>
+                <span class="player__category" id="player-category">
+                </span>
 
-    <h1
-        class="player__title"
-        id="player-title">
-    </h1>
+                <h1 class="player__title" id="player-title">
+                </h1>
 
-    <p
-        class="player__description"
-        id="player-description">
-    </p>
+                <p class="player__description" id="player-description">
+                </p>
 
-</div>
+            </div>
 
+
+        </div>
+
+        <!-- Next -->
+
+        <button class="player__button player__button--next" id="player-next" aria-label="Next">
+
+            <i class="ri-arrow-right-s-line"></i>
+
+        </button>
 
     </div>
 
-    <!-- Next -->
-
-    <button
-        class="player__button player__button--next"
-        id="player-next"
-        aria-label="Next">
-
-        <i class="ri-arrow-right-s-line"></i>
-
-    </button>
-
-</div>
-
-<script src="assets/js/player.js"></script>
+    <script src="assets/js/player.js"></script>
 
 </body>
 
