@@ -907,11 +907,8 @@ function initImageLightbox() {
 
         } else {
 
-            preview.innerHTML = `
-            <img
-                src="${media.src}"
-                alt="${media.alt}">
-        `;
+            preview.src = media.currentSrc || media.src;
+            preview.alt = media.alt || "";
 
         }
 
