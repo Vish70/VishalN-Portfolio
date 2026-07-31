@@ -859,7 +859,9 @@ function initImageLightbox() {
 
     if (!imageCards.length) return;
 
-    const images = imageCards.map(card => card.querySelector("img"));
+    // const images = imageCards.map(card => card.querySelector("img"));
+
+    const images = imageCards.map(card => card.querySelector("img, video"));
 
     let currentIndex = 0;
 
@@ -893,8 +895,25 @@ function initImageLightbox() {
 
         currentIndex = index;
 
-        preview.src = images[index].src;
-        preview.alt = images[index].alt;
+        const media = images[index];
+
+        if (media.tagName === "VIDEO") {
+
+            preview.innerHTML = `
+            <video controls autoplay playsinline>
+                <source src="${media.currentSrc || media.src}">
+            </video>
+        `;
+
+        } else {
+
+            preview.innerHTML = `
+            <img
+                src="${media.src}"
+                alt="${media.alt}">
+        `;
+
+        }
 
         overlay.classList.add("active");
 
@@ -912,33 +931,18 @@ function initImageLightbox() {
 
     function next() {
 
-        currentIndex++;
+        currentIndex = (currentIndex + 1) % images.length;
 
-        if (currentIndex >= images.length) {
-
-            currentIndex = 0;
-
-        }
-
-        preview.src = images[currentIndex].src;
-
-        preview.alt = images[currentIndex].alt;
+        open(currentIndex);
 
     }
-
     function prev() {
 
-        currentIndex--;
+        currentIndex =
+            (currentIndex - 1 + images.length) %
+            images.length;
 
-        if (currentIndex < 0) {
-
-            currentIndex = images.length - 1;
-
-        }
-
-        preview.src = images[currentIndex].src;
-
-        preview.alt = images[currentIndex].alt;
+        open(currentIndex);
 
     }
 

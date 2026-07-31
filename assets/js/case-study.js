@@ -41,11 +41,11 @@ class CaseStudy {
         // ];
 
         this.gallery = [
-    ...document.querySelectorAll(".case-study__image, .case-study__appointment-image")
-];
+            ...document.querySelectorAll(".case-study__image, .case-study__appointment-image")
+        ];
 
         this.images = this.gallery
-            .map(item => item.querySelector("img"))
+            .map(item => item.querySelector("img, video"))
             .filter(Boolean);
 
         this.expandButtons = [
@@ -224,9 +224,66 @@ class CaseStudy {
         console.log("SOURCE:", source);
         console.log("LIGHTBOX IMG:", this.lightboxImage);
 
-        this.lightboxImage.src = source;
+        if (image.tagName === "VIDEO") {
 
-        this.lightboxImage.alt = image.alt || "";
+            if (this.lightboxImage.tagName === "IMG") {
+
+                const video = document.createElement("video");
+
+                video.className = this.lightboxImage.className;
+
+                video.controls = true;
+
+                video.autoplay = true;
+
+                video.loop = true;
+
+                video.playsInline = true;
+
+                video.preload = "metadata";
+
+                video.setAttribute("playsinline", "");
+
+                video.setAttribute("webkit-playsinline", "");
+
+                video.muted = true;
+                video.src = source;
+                video.load();
+                video.play().catch(() => { });
+
+                this.lightboxImage.replaceWith(video);
+
+                this.lightboxImage = video;
+
+            } else {
+
+                this.lightboxImage.src = source;
+
+                this.lightboxImage.load?.();
+
+                this.lightboxImage.play?.().catch(() => { });
+
+            }
+
+        } else {
+
+            if (this.lightboxImage.tagName === "VIDEO") {
+
+                const img = document.createElement("img");
+
+                img.className = this.lightboxImage.className;
+
+                this.lightboxImage.replaceWith(img);
+
+                this.lightboxImage = img;
+
+            }
+
+            this.lightboxImage.src = source;
+
+            this.lightboxImage.alt = image.alt || "";
+
+        }
 
         const caption =
 
