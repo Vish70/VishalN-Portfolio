@@ -35,7 +35,7 @@ const preloader = document.getElementById("preloader");
    APP STATE
 ========================================================== */
 
-const state = {
+const builderState = {
 
     menuOpen: false,
 
@@ -138,14 +138,14 @@ function lockBody(lock = true) {
 
 function isDesktop() {
 
-    return !state.touchDevice;
+    return !builderState.touchDevice;
 
 }
 
 
 function isMobile() {
 
-    return state.touchDevice;
+    return builderState.touchDevice;
 
 }
 
@@ -309,9 +309,9 @@ window.addEventListener("load", () => {
 
 function openMenu() {
 
-    if (!mobileMenu || state.menuOpen) return;
+    if (!mobileMenu || builderState.menuOpen) return;
 
-    state.menuOpen = true;
+    builderState.menuOpen = true;
 
     mobileMenu.classList.add("active");
 
@@ -326,9 +326,9 @@ function openMenu() {
 
 function closeMenu() {
 
-    if (!mobileMenu || !state.menuOpen) return;
+    if (!mobileMenu || !builderState.menuOpen) return;
 
-    state.menuOpen = false;
+    builderState.menuOpen = false;
 
     mobileMenu.classList.remove("active");
 
@@ -343,7 +343,7 @@ function closeMenu() {
 
 function toggleMenu() {
 
-    state.menuOpen
+    builderState.menuOpen
         ? closeMenu()
         : openMenu();
 
@@ -378,7 +378,7 @@ function initMobileMenu() {
 
         if (
             e.key === "Escape" &&
-            state.menuOpen
+            builderState.menuOpen
         ) {
 
             closeMenu();
@@ -390,7 +390,7 @@ function initMobileMenu() {
 
     document.addEventListener("click", e => {
 
-        if (!state.menuOpen) return;
+        if (!builderState.menuOpen) return;
 
         const clickedInsideMenu =
             mobileMenu.contains(e.target);
@@ -698,9 +698,9 @@ function initCreativeFilter() {
 
             const category = button.dataset.filter;
 
-            if (state.currentFilter === category) return;
+            if (builderState.currentFilter === category) return;
 
-            state.currentFilter = category;
+            builderState.currentFilter = category;
 
             filterButtons.forEach(btn => {
 
@@ -787,7 +787,7 @@ function initCreativeVideos() {
 
         card.addEventListener("mouseenter", () => {
 
-            if (state.touchDevice) return;
+            if (builderState.touchDevice) return;
 
             video.play().catch(() => { });
 
@@ -795,7 +795,7 @@ function initCreativeVideos() {
 
         card.addEventListener("mouseleave", () => {
 
-            if (state.touchDevice) return;
+            if (builderState.touchDevice) return;
 
             video.pause();
 

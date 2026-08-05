@@ -1,0 +1,482 @@
+/* ==========================================================
+   404 PAGE
+   BASE
+========================================================== */
+
+.error404{
+
+    position:relative;
+
+    min-height:calc(100vh - 88px);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    overflow:hidden;
+
+    isolation:isolate;
+
+    padding:7rem 1.5rem 5rem;
+
+}
+
+
+/* ==========================================================
+   BACKGROUND
+========================================================== */
+
+.error404::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    pointer-events:none;
+
+    background:
+
+        radial-gradient(
+
+            circle at top,
+
+            rgba(255,154,48,.08),
+
+            transparent 65%
+
+        );
+
+}
+
+
+.error404::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    pointer-events:none;
+
+    background-image:
+
+        linear-gradient(
+
+            rgba(255,255,255,.025) 1px,
+
+            transparent 1px
+
+        ),
+
+        linear-gradient(
+
+            90deg,
+
+            rgba(255,255,255,.025) 1px,
+
+            transparent 1px
+
+        );
+
+    background-size:80px 80px;
+
+    opacity:.25;
+
+}
+
+
+/* ==========================================================
+   HERO
+========================================================== */
+
+.error404__hero{
+
+    width:100%;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+
+.error404__hero-inner{
+
+    width:min(100%,760px);
+
+    margin-inline:auto;
+
+    text-align:center;
+
+}
+
+
+/* ==========================================================
+   BADGE
+========================================================== */
+
+.error404__badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:.65rem 1.15rem;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    color:var(--color-text-muted);
+
+    font-size:.85rem;
+
+    font-weight:500;
+
+    letter-spacing:.05em;
+
+}
+
+
+/* ==========================================================
+   404 NUMBERS
+========================================================== */
+
+.error404__numbers{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:.35rem;
+
+    margin:2rem 0;
+
+}
+
+
+.error404__digit{
+
+    font-size:clamp(6rem,18vw,11rem);
+
+    line-height:.85;
+
+    font-weight:700;
+
+    letter-spacing:-.08em;
+
+    color:var(--color-heading);
+
+    user-select:none;
+
+    text-shadow:
+
+        0 10px 40px rgba(255,154,48,.12);
+
+}
+
+
+/* ==========================================================
+   TITLE
+========================================================== */
+
+.error404__title{
+
+    margin-bottom:1rem;
+
+    font-size:clamp(2rem,4vw,3.4rem);
+
+    line-height:1.1;
+
+    color:var(--color-heading);
+
+}
+
+
+/* ==========================================================
+   TEXT
+========================================================== */
+
+.error404__text{
+
+    width:min(100%,45ch);
+
+    margin-inline:auto;
+
+    margin-bottom:2.5rem;
+
+    color:var(--color-text);
+
+    opacity:.8;
+
+    line-height:1.8;
+
+}
+
+
+/* ==========================================================
+   ACTIONS
+========================================================== */
+
+.error404__actions{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+} 
+
+/* ==========================================================
+   BUTTON
+========================================================== */
+
+.error404__actions .btn{
+
+    min-width:190px;
+
+    justify-content:center;
+
+    transition:
+
+        transform .35s ease,
+
+        box-shadow .35s ease;
+
+}
+
+.error404__actions .btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+
+        0 16px 40px rgba(255,154,48,.22);
+
+}
+
+
+/* ==========================================================
+   HERO ANIMATION
+========================================================== */
+
+.error404__badge,
+
+.error404__numbers,
+
+.error404__title,
+
+.error404__text,
+
+.error404__actions{
+
+    opacity:0;
+
+    transform:translateY(20px);
+
+    animation:fadeUp .8s forwards;
+
+}
+
+.error404__numbers{
+
+    animation-delay:.15s;
+
+}
+
+.error404__title{
+
+    animation-delay:.30s;
+
+}
+
+.error404__text{
+
+    animation-delay:.45s;
+
+}
+
+.error404__actions{
+
+    animation-delay:.60s;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+/* ==========================================================
+   RESPONSIVE
+========================================================== */
+
+@media (max-width:992px){
+
+    .error404{
+
+        padding:
+
+            6rem
+
+            1.5rem
+
+            4rem;
+
+    }
+
+}
+
+
+@media (max-width:768px){
+
+    .header{
+
+        display:none;
+
+    }
+
+    .error404{
+
+        min-height:100vh;
+
+        padding:
+
+            2rem
+
+            1.25rem;
+
+    }
+
+    .error404__hero-inner{
+
+        width:100%;
+
+    }
+
+    .error404__numbers{
+
+        margin:
+
+            1.5rem
+
+            0;
+
+    }
+
+    .error404__digit{
+
+        font-size:clamp(5rem,24vw,8rem);
+
+    }
+
+    .error404__title{
+
+        font-size:2rem;
+
+    }
+
+    .error404__text{
+
+        width:100%;
+
+        max-width:28ch;
+
+        font-size:.98rem;
+
+        line-height:1.75;
+
+        margin-bottom:2rem;
+
+    }
+
+    .error404__actions .btn{
+
+        width:100%;
+
+        max-width:240px;
+
+    }
+
+}
+
+
+@media (max-width:480px){
+
+    .error404__badge{
+
+        font-size:.78rem;
+
+        padding:
+
+            .55rem
+
+            .95rem;
+
+    }
+
+    .error404__digit{
+
+        font-size:4.8rem;
+
+    }
+
+    .error404__title{
+
+        font-size:1.75rem;
+
+    }
+
+    .error404__text{
+
+        font-size:.92rem;
+
+    }
+
+}
+
+
+/* ==========================================================
+   REDUCED MOTION
+========================================================== */
+
+@media (prefers-reduced-motion:reduce){
+
+    *{
+
+        animation:none !important;
+
+        transition:none !important;
+
+    }
+
+} 
+
